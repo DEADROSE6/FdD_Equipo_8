@@ -10,7 +10,7 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 
-- ODS 9: Industria, Innovación e Infraestructura  
+- ODS 6: Agua Limpia y saneamiento: Se busca garantizar el acceso a agua segura y de calidad. En la actualidad persisten problemas relacionados con la contaminación del agua, incluyendo la presencia de microplásticos y otras partículas que pueden afectar la salud humana
 - ODS 11: Ciudades y Comunidades Sostenibles  
 - ODS 13: Acción por el Clima  
 
