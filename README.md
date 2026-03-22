@@ -11,8 +11,8 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 
 - ODS 6: Agua Limpia y saneamiento: Se busca garantizar el acceso a agua segura y de calidad. En la actualidad persisten problemas relacionados con la contaminación del agua, incluyendo la presencia de microplásticos y otras partículas que pueden afectar la salud humana
-- ODS 11: Ciudades y Comunidades Sostenibles  
-- ODS 13: Acción por el Clima  
+- ODS 14: Vida Submarina: Aunque está más relacionado con océanos y mares, se víncula con los ríos , ya que estos transportan residuos plásticos que finalmente llegan al mar, afectando la biodiversidad
+- ODS 13: Acción por el Clima: AL contaminación en ríos y cuerpos de agua contribuye al deterioro ambiental, y está relacionada con impactos negativos en los ecosistemas y el equilibrio climático.
 
 ---
 
@@ -28,11 +28,11 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/655903395_943863358260627_6909408214037791066_n.jpg" width="90"/> | **Angello Areche Espeza** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="/Recursos/Imágenes/Foto Rolando.jpeg" width="90"/> | **Rolando Ronceros Huaynapomas** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="/Recursos/Imágenes/leslie.foto.jpeg" width="90"/> | **Leslie Stephany Tomanguilla Huaman** | Diseñadora | Diseño de prototipos, creatividad aplicada |
-| <img src="/Recursos/Imágenes/WhatsApp Image 2026-03-20 at 11.19.52 PM.jpeg" width="90"/> | **Daniela Mori Mendoza** |  Encargada de la documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/alex.jpeg" width="90"/> | **Alex Jhosep Ccoyllo Sotelo** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/655903395_943863358260627_6909408214037791066_n.jpg" width="90"/> | **Angello Areche Espeza** | Líder del equipo | Innovación social, temas ambientales, organización de proyectos |
+| <img src="/Recursos/Imágenes/Foto Rolando.jpeg" width="90"/> | **Rolando Ronceros Huaynapomas** | Responsable de investigación | Medio ambiente, trabajo con comunidades, búsqueda de información |
+| <img src="/Recursos/Imágenes/leslie.foto.jpeg" width="90"/> | **Leslie Stephany Tomanguilla Huaman** | Diseñadora |Diseño de prototipos, creatividad, ideas prácticas |
+| <img src="/Recursos/Imágenes/WhatsApp Image 2026-03-20 at 11.19.52 PM.jpeg" width="90"/> | **Daniela Mori Mendoza** |  Encargada de la documentación | Redacción, organización de información, elaboración de informes |
+| <img src="/Recursos/Imágenes/alex.jpeg" width="90"/> | **Alex Jhosep Ccoyllo Sotelo** | Programador/a - Modelador/a | Programación, análisis de datos, desarrollo con ESP32 |
 
 ---
 
