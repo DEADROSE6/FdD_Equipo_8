@@ -30,7 +30,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/655903395_943863358260627_6909408214037791066_n.jpg" width="90"/> | **Angello Areche Espeza** | Líder del equipo | Innovación social, temas ambientales, organización de proyectos |
 | <img src="/Recursos/Imágenes/Foto Rolando.jpeg" width="90"/> | **Rolando Ronceros Huaynapomas** | Responsable de investigación | Medio ambiente, trabajo con comunidades, búsqueda de información |
-| <img src="/Recursos/Imágenes/leslie.foto.jpeg" width="90"/> | **Leslie Stephany Tomanguilla Huaman** | Diseñadora |Diseño de prototipos, creatividad, ideas prácticas |
+| <img src="/Recursos/Imágenes/leslie.foto.jpeg" width="90"/> | **Leslie Stephany Tomanguilla Huaman** | Diseñadora |Diseños de prototipos, creatividad, ideas prácticas |
 | <img src="/Recursos/Imágenes/WhatsApp Image 2026-03-20 at 11.19.52 PM.jpeg" width="90"/> | **Daniela Mori Mendoza** |  Encargada de la documentación | Redacción, organización de información, elaboración de informes |
 | <img src="/Recursos/Imágenes/alex.jpeg" width="90"/> | **Alex Jhosep Ccoyllo Sotelo** | Programador/a - Modelador/a | Programación, análisis de datos, desarrollo con ESP32 |
 
