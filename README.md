@@ -1,4 +1,4 @@
-# Equipo 8 - Nombre del curso
+# Equipo 8 - Fundamentos de Diseño
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
