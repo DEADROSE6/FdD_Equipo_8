@@ -37,4 +37,4 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 ---
 
 ## 📌 Resumen Final  
-El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad y el medio ambiente. Hemos elegido trabajar con los ODS 3, 6 y 12, ya que reflejan problemáticas concretas en el Perú relacionadas con la salud, el acceso al agua y el uso responsable de los recursos. Nuestro interés principal es entender estas problemáticas y aportar ideas basadas en datos y análisis, fomentando conciencia sobre la importancia de soluciones sostenibles y responsables.
+El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 16, 11 y 9, los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
