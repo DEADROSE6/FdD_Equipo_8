@@ -10,13 +10,16 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 
-⚕️ ODS 3: Salud y bienestar
+⚕️**ODS 3: Salud y bienestar**
+
 Hoy en día, caminar por la ciudad supone un riesgo real para nuestra salud y tranquilidad. Los accidentes de tránsito no solo golpean nuestra integridad física, sino que nos llenan de estrés y miedo al salir a la calle. La OMS ya lo advierte: las muertes viales son una crisis global que afecta, sobre todo, a los peatones y a los más vulnerables. En el Perú esto se vive a diario. Tenemos un tránsito caótico y zonas donde la señalización brilla por su ausencia, lo que multiplica el peligro. Nuestro proyecto ataca justamente esto: queremos advertir al usuario que hay peligro a su alrededor. Al anticipar el riesgo, reducimos las cifras de lesiones y, lo más importante, le devolvemos a la gente la confianza para moverse segura por su ciudad.
 
- 🏭 ODS 9: Industria, innovación e infraestructura
+ 🏭**ODS 9: Industria, innovación e infraestructura**
+ 
 La tecnología ya no tiene que ser una megaobra de infraestructura para generar impacto. En vez de sentarnos a esperar a que toda la ciudad se llene de pavimento podotáctil, creemos que la innovación debe ser personal, inmediata y caber en nuestro día a día. Nuestro proyecto lleva la seguridad directamente a los objetos que ya usamos. Combinamos sensores, conectividad e inteligencia artificial para crear algo más que un simpl; estamos diseñando tecnología que lee el entorno en tiempo real y toma decisiones rápidas para proteger al usuario en la calle.
 
-🏙️ ODS 11: Ciudades y comunidades sostenibles
+🏙️**ODS 11: Ciudades y comunidades sostenibles**
+
 El gran reto de nuestras ciudades es crecer sin dejar a nadie atrás. Para una persona con discapacidad visual, auditiva o con déficit de atención, cruzar una avenida transitada puede ser una verdadera odisea. En el Perú, la falta de accesibilidad en las calles es evidente y esto le roba la autonomía a miles de ciudadanos así mismo limitando su vida cotidiana. Aquí es donde nuestra tecnología actúa como un puente hacia la inclusión real. El dispositivo emite alertas a la medida de cada persona  ya sea mediante vibraciones, sonidos o mensajes visuales  para guiarla en medio del caos urbano. Al final, el objetivo de este proyecto trasciende la seguridad vial: se trata de darle a cualquier persona el mismo derecho a disfrutar, acceder y recorrer su ciudad con total libertad.
 
 
