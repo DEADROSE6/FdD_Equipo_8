@@ -12,7 +12,7 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 ---
 
-# DESCRIPCION
+# DESCRIPCION DEL PROYECTO
 
 El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de alerta para peatones que previene accidentes en cruces urbanos mediante sensores, visión artificial con ESP32-CAM e IoT.
 
