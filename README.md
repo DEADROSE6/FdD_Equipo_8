@@ -119,7 +119,7 @@ El gran reto de nuestras ciudades es crecer sin dejar a nadie atrás. Para una p
 ## 📌 Resumen Final  
 El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 3, 9 y 11 ,los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
 
-📄 REFERENCIAS BIBLOGRAFICAS:
+📄 Referencias Bibliográficas :
 
  *1* Organización Mundial de la Salud. Lesiones causadas por el tránsito.OMS 2023  https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
  
