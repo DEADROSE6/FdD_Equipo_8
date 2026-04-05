@@ -1,13 +1,41 @@
-# Equipo 8 - Fundamentos de Diseño
+﻿# Equipo 8 - Fundamentos de Diseño
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
 ---
 
 ## 🌍 Descripción del Equipo 👥
-Somos el **Equipo 8** del curso **Fundamentos de Diseño 2026-1**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
-Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
-
+Somos el **Equipo 8** del curso **Fundamentos de Diseño 2026-1** , conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.
+Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.
+DESCRIPCION:
+El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de alerta para peatones que previene accidentes en cruces urbanos mediante sensores, visión artificial con ESP32-CAM e IoT.
+El sistema detecta peatones distraídos, evalúa su comportamiento en tiempo real y clasifica el nivel de riesgo, activando alertas visuales, sonoras y mensajes en pantalla solo cuando es necesario. Además, registra datos en Micro SD para análisis básico de patrones.
+Asimismo, el proyecto incorpora un enfoque inclusivo, ya que brinda asistencia a personas con discapacidad visual mediante alertas sonoras en el cruce, y a personas con discapacidad auditiva mediante la conexión con una aplicación móvil que envía vibraciones y notificaciones en tiempo real, permitiendo advertir situaciones de riesgo de manera accesible.
+Este proyecto contribuye a los ODS 3, 9 y 11, promoviendo la seguridad vial, la innovación tecnológica y el desarrollo de ciudades más inclusivas y seguras.
+PROBLEMÁTICA:
+En el Perú, los accidentes de tránsito constituyen una de las principales problemáticas de seguridad pública, especialmente en zonas urbanas como Lima, donde el alto flujo vehicular y peatonal incrementa el riesgo de atropellos. Una de las causas más frecuentes es la distracción de los peatones, principalmente por el uso del celular al momento de cruzar la vía, lo que reduce su capacidad de reacción ante situaciones de peligro.
+A esto se suma la falta de infraestructura tecnológica en los cruces peatonales, ya que la mayoría de semáforos son sistemas tradicionales que no responden al comportamiento en tiempo real de las personas. Esta situación evidencia la necesidad de implementar soluciones inteligentes que permitan detectar riesgos y alertar oportunamente a los peatones, contribuyendo así a la reducción de accidentes y a la mejora de la seguridad vial en el país.
+PROPUESTA DE SOLUCIÓN:
+Como solución a esta problemática, se propone el desarrollo de SafeWalk AI, un sistema inteligente de alerta para peatones que integra sensores de movimiento, medición de distancia y visión artificial mediante ESP32-CAM, junto con conectividad IoT.
+Este sistema busca prevenir accidentes en cruces urbanos, detectando situaciones de riesgo en tiempo real y generando alertas accesibles. Además, incorpora un enfoque inclusivo al brindar asistencia tanto a peatones distraídos como a personas con discapacidad visual y auditiva, mediante alertas sonoras, visuales y notificaciones móviles.
+Su diseño compacto, basado en una estructura impresa en 3D, permite su implementación como un prototipo funcional y escalable hacia ciudades inteligentes.
+¿Cómo funciona el proyecto?
+1. Detección:
+Sensores (PIR y ultrasónico) identifican la presencia y proximidad de peatones. 
+2. Análisis:
+La ESP32-CAM captura imágenes y evalúa el comportamiento del peatón (ej. distracción por celular). 
+3. Clasificación:
+El sistema determina el nivel de riesgo: seguro, sospechoso o peligro. 
+4. Respuesta:
+Se activan alertas según el nivel de riesgo: 
+o Luces tipo semáforo 
+o Sonido (buzzer) 
+o Mensajes en pantalla 
+5. Accesibilidad: 
+o Alertas sonoras para personas con discapacidad visual 
+o Notificaciones y vibración mediante app móvil para personas con discapacidad auditiva 
+6. Registro de datos:
+Se almacenan datos en Micro SD para análisis y mejora del sistema.
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 
 ⚕️**ODS 3: Salud y bienestar**
