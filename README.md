@@ -109,8 +109,7 @@ El gran reto de nuestras ciudades es crecer sin dejar a nadie atrás. Para una p
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/655903395_943863358260627_6909408214037791066_n.jpg" width="90"/> | **Angello Areche Espeza** | Técnico en prototipado y hardware | Diseño y modulado de prototipos, emsamblaje y soldadura de componentes |
-| <img src="/Recursos/Imágenes/Foto Rolando.jpeg" width="90"/> | **Rolando Ronceros Huaynapomas** | Arquitecto del sistema | Diseñar cómo se conectan todos los componentes (sensores, ESP32, app)
-Definir la estructura general del sistema |
+| <img src="/Recursos/Imágenes/Foto Rolando.jpeg" width="90"/> | **Rolando Ronceros Huaynapomas** | Arquitecto del sistema | Diseñar cómo se conectan todos los componentes (sensores, ESP32, app), definir la estructura general del sistema |
 | <img src="/Recursos/Imágenes/leslie.foto.jpeg" width="90"/> | **Leslie Stephany Tomanguilla Huaman** | Analista de problemáticas | Identificar problemas actuales y dar soluciones |
 | <img src="/Recursos/Imágenes/WhatsApp Image 2026-03-20 at 11.19.52 PM.jpeg" width="90"/> | **Daniela Mori Mendoza** |  Coordinadora de documentación | Gestión, redacción y edición de documentos |
 | <img src="/Recursos/Imágenes/alex.jpeg" width="90"/> | **Alex Jhosep Ccoyllo Sotelo** | Programador del sistema | Programación, análisis de datos, desarrollo con ESP32 |
