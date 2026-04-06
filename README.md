@@ -90,29 +90,24 @@ Ejemplos de soluciones similares a nivel global:
 - Microsoft Seeing AI — aplicación que usa inteligencia artificial para describir el entorno a personas con discapacidad visual en tiempo real.
 
 
+
 🏭**ODS 9: Industria, innovación e infraestructura**
 
 Este ODS promueve la modernización de la infraestructura existente mediante la incorporación de nuevas tecnologías que la hagan más eficiente, segura e inclusiva (1).
 En el Perú:
 
-En 2023 se registraron aproximadamente 1,303 accidentes de tránsito solo en Lima, atribuidos principalmente a deficiencias en la señalización vial e infraestructura inadecuada (8).
-El 60% de los atropellos es responsabilidad del peatón, muchos de ellos relacionados con distracciones por dispositivos móviles, evidenciando la necesidad de sistemas de alerta en tiempo real (12).
-La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
-
-SafeWalk AI no requiere una transformación total de la ciudad. Combinando sensores, conectividad IoT e inteligencia artificial, lleva la seguridad directamente a los objetos que las personas ya usan, como el smartwatch o el celular, tomando decisiones en tiempo real para proteger al usuario en la calle.
-Ejemplos de soluciones similares a nivel global:
-
-Smart Traffic Systems en Singapur — semáforos inteligentes que ajustan los tiempos de cruce según el flujo peatonal en tiempo real.
-Waymap — app de navegación indoor y outdoor para personas con discapacidad visual usando IoT y sensores.
+- En 2023 se registraron aproximadamente 1,303 accidentes de tránsito solo en Lima, atribuidos principalmente a deficiencias en la señalización vial e infraestructura inadecuada (8).
+- El 60% de los atropellos es responsabilidad del peatón, muchos de ellos relacionados con distracciones por dispositivos móviles, evidenciando la necesidad de sistemas de alerta en tiempo real (12).
+- La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
 
 
 🏙️**ODS 11: Ciudades y comunidades sostenibles** 
 Este ODS busca lograr que las ciudades sean inclusivas, seguras, resilientes y sostenibles, garantizando el acceso equitativo al espacio público para todos los ciudadanos (1).
 En el Perú:
 
-El 57.2% de las personas con discapacidad califica como mala la accesibilidad en el transporte y espacio público urbano (4).
-Lima Metropolitana concentra el 65.8% de la población con discapacidad visual del país, aproximadamente 1,966,766 personas, que enfrentan barreras diarias para desplazarse con autonomía (5).
-Los peatones con discapacidad han sido históricamente invisibilizados en el diseño de la infraestructura urbana, vulnerando su derecho a circular libremente por la ciudad (9).
+- El 57.2% de las personas con discapacidad califica como mala la accesibilidad en el transporte y espacio público urbano (4).
+- Lima Metropolitana concentra el 65.8% de la población con discapacidad visual del país, aproximadamente 1,966,766 personas, que enfrentan barreras diarias para desplazarse con autonomía (5).
+- Los peatones con discapacidad han sido históricamente invisibilizados en el diseño de la infraestructura urbana, vulnerando su derecho a circular libremente por la ciudad (9).
 
 
 ---
