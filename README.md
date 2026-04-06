@@ -69,6 +69,7 @@ Discapacidad motriz — tiempo extendido de cruce al detectar silla de ruedas y 
 
 ## Registro de datos
 Se almacenan datos en Micro SD para análisis posterior y mejora continua del sistema.
+
 ---
 
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
