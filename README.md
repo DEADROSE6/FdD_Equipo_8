@@ -28,10 +28,9 @@ Este proyecto contribuye a los ODS 3, 9 y 11, promoviendo la seguridad vial, la 
 
 # PROBLEMÁTICA
 
-
 La movilidad urbana es fundamental para el desarrollo de las ciudades, sin embargo, en el Perú la seguridad vial continúa siendo un desafío importante, especialmente para los peatones. El alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito incrementan el riesgo de accidentes, y estudios en Lima confirman que la congestión vehicular puede inducir comportamientos más arriesgados en los peatones al momento de cruzar (10).
-Esta situación se vuelve aún más crítica para personas con discapacidad o movilidad reducida. En ciudades como Trujillo, los ciudadanos con discapacidad visual, auditiva o motriz han sido históricamente invisibilizados en el espacio público, enfrentando sistemas de señalización que no consideran sus necesidades reales de accesibilidad (4).
----
+Esta situación se vuelve aún más crítica para personas con discapacidad o movilidad reducida. En ciudades como Trujillo, los ciudadanos con discapacidad visual, auditiva o motriz han sido históricamente invisibilizados en el espacio público, enfrentando sistemas de señalización que no consideran sus necesidades reales de accesibilidad (4). 
+
 
 # PROPUESTA DE SOLUCIÓN
 
