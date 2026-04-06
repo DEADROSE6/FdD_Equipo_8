@@ -138,15 +138,26 @@ El Equipo 8 está conformado por estudiantes comprometidos con generar un impact
 📑 Referencias Bibliográficas:
 
 **1.** Organización de las Naciones Unidas. Objetivos de Desarrollo Sostenible [Internet]. Nueva York: ONU; 2015 [citado 2025]. Disponible en: https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/ 
+
 **2.** Velásquez Reyes D, et al. Accesibilidad y movilidad para personas con discapacidad [Internet]. Lima: USIL; 2021 [citado 2025]. Disponible en: https://repositorio.usil.edu.pe/server/api/core/bitstreams/b5a83695-5c17-4e21-905c-b8c2fc364bfa/content 
+
 **3.** Ministerio de Transportes y Comunicaciones del Perú. De enero a julio del 2022 ocurrieron más de 47 mil siniestros de tránsito en el Perú [Internet]. Lima: MTC; 2022 [citado 2025]. Disponible en: https://www.gob.pe/institucion/mtc/noticias/647689-de-enero-a-julio-del-2022-ocurrieron-mas-de-47-mil-siniestros-de-transito-en-el-peru/
+
 **4.** Ponce-Rojas KJ. Transporte público urbano inclusivo desde la percepción de las personas con discapacidad en una ciudad de Perú. Revista de Climatología Edición Especial Ciencias Sociales [Internet]. 2023 [citado 2025]; 23: 114-125. Disponible en: https://rclimatol.eu/wp-content/uploads/2023/04/ArticuloCS23h.pdf
+
 **5.** Seminario-Hurtado N, Alfaro Torres HM. Accesibilidad en entornos urbanos para personas con discapacidad visual en el Perú: un análisis normativo. Cuadernos de Vivienda y Urbanismo [Internet]. 2025 [citado 2025]; 18. Disponible en: https://revistas.javeriana.edu.co/index.php/cvyu/article/view/41190/
+
 **6.** Huamaní Meza A, et al. Seguridad vial y peatones en Lima Metropolitana [Internet]. Lima: Editorial Innova; 2023 [citado 2025]. Disponible en: https://www.editorialinnova.com/index.php/nrj/article/view/323
+
 **7.** Ayala Corbacho AP. Propuesta de una metodología de estimación del confort ante vibraciones y esfuerzos a partir de un modelo numérico de persona con discapacidad motriz que se desplaza sobre infraestructura peatonal para evaluar la accesibilidad de espacios públicos [Tesis de licenciatura]. Lima: Pontificia Universidad Católica del Perú; 2023. Disponible en: https://tesis.pucp.edu.pe/items/8599445f-996e-4f54-9a82-fd9ca20fe3ed
-**8.** Apari Alberto JA, Olivas Vega JB. Análisis y propuesta de mejoramiento de la seguridad vial y reducción de los accidentes de tránsito en la intersección de las avenidas Chimpú Ocllo y Mariano Condorcanqui, Carabayllo, 2024 [Tesis de grado]. Lima: Universidad Tecnológica del Perú; 2024. Disponible en: https://alicia.concytec.gob.pe/vufind/Record/UTPD_6f192dbfce0f709fe89bc1f4722b14f3
-**9.** Gualdrón Durán JA. Sobre la evolución de las condiciones de accesibilidad en el sistema TransMilenio y la garantía de los derechos de las personas con discapacidad: tendencias de la jurisprudencia constitucional [Tesis]. Bogotá: Universidad de los Andes; 2018. Disponible en: https://repositorio.uniandes.edu.co/entities/publication/9f154996-d61e-41e4-8ed9-c20fff5bbf3a
-**10.** Malpartida Saldaña J, Ricalde Dominguez MO. Seguridad vial del peatón alrededor del Óvalo Higuereta, Lima [Tesis de licenciatura]. Lima: Pontificia Universidad Católica del Perú; 2024. Disponible en: https://tesis.pucp.edu.pe/items/e02fa5b8-1e76-4be8-8e7a-ebf7ba0410a0
-**11.** División de Prevención e Investigación de Accidentes de Tránsito - PNP. Peatones que usan celular en las pistas causan accidentes de tránsito fatales [Internet]. Lima: Diario Oficial El Peruano; 2024 [citado 2025]. Disponible en: https://www.elperuano.pe/noticia/242509-peatones-que-usan-celular-en-las-pistas-causan-accidentes-de-transito-fatales
+
+**8.** Apari Alberto JA, Olivas Vega JB. Análisis y propuesta de mejoramiento de la seguridad vial y reducción de los accidentes de tránsito en la intersección de las avenidas Chimpú Ocllo y Mariano Condorcanqui, Carabayllo, 2024 [Tesis de grado]. Lima: Universidad Tecnológica del Perú; 2024. Disponible en: https://alicia.concytec.gob.pe/vufind/Record/UTPD_6f192dbfce0f709fe89bc1f4722b14f3 
+
+**9.** Gualdrón Durán JA. Sobre la evolución de las condiciones de accesibilidad en el sistema TransMilenio y la garantía de los derechos de las personas con discapacidad: tendencias de la jurisprudencia constitucional [Tesis]. Bogotá: Universidad de los Andes; 2018. Disponible en: https://repositorio.uniandes.edu.co/entities/publication/9f154996-d61e-41e4-8ed9-c20fff5bbf3a 
+
+**10.** Malpartida Saldaña J, Ricalde Dominguez MO. Seguridad vial del peatón alrededor del Óvalo Higuereta, Lima [Tesis de licenciatura]. Lima: Pontificia Universidad Católica del Perú; 2024. Disponible en: https://tesis.pucp.edu.pe/items/e02fa5b8-1e76-4be8-8e7a-ebf7ba0410a0 
+
+**11.** División de Prevención e Investigación de Accidentes de Tránsito - PNP. Peatones que usan celular en las pistas causan accidentes de tránsito fatales [Internet]. Lima: Diario Oficial El Peruano; 2024 [citado 2025]. Disponible en: https://www.elperuano.pe/noticia/242509-peatones-que-usan-celular-en-las-pistas-causan-accidentes-de-transito-fatales 
+
 **12.** Quispe Candia L. Peatones que usan celular en vía pública pueden ser víctimas de atropellos [Internet]. Lima: Agencia Andina; 2013 [citado 2025]. Disponible en: https://andina.pe/agencia/noticia-peatones-usan-celular-via-publica-pueden-ser-victimas-atropellos-472593.aspx
 
