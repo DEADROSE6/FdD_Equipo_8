@@ -133,3 +133,7 @@ El Equipo 8 está conformado por estudiantes comprometidos con generar un impact
 *4.* Defensoría del Pueblo. Se debe garantizar que espacios y servicios públicos sean accesibles para personas con discapacidad [Internet]. Lima: Defensoría del Pueblo; 2023 [citado 5 abr 2026]. Disponible en: https://www.gob.pe/institucion/defensoria/noticias/685982-defensoria-del-pueblo-se-debe-garantizar-que-espacios-y-servicios-publicos-sean-accesibles-para-personas-con-discapacidad
 
 *5.* Defensoría del Pueblo. Defensoría identifica más de 150 puntos críticos que afectan derechos de personas que transitan por el centro de Lima [Internet]. Lima: Defensoría del Pueblo; 2023 [citado 5 abr 2026]. Disponible en: https://www.defensoria.gob.pe/defensoria-del-pueblo-identifica-mas-de-150-puntos-criticos-que-afectan-derechos-de-personas-que-transitan-por-el-centro-de-lima/
+
+*6.* Infobae. Aumentan los accidentes de tránsito en Perú: más de 1.300 incidentes reportados en 2024 [Internet]. Lima: Infobae; 2024 [citado 5 abr 2026]. Disponible en: https://www.infobae.com/peru/2024/11/03/aumentan-los-accidentes-de-transito-en-peru-mas-de-1300-incidentes-reportados-en-2024/
+
+*7.* Infobae. Atropellos a peatones en Lima se incrementan un 37% en lo que va del 2024 [Internet]. Lima: Infobae; 2024 [citado 5 abr 2026]. Disponible en: https://www.infobae.com/peru/2024/08/17/atropellos-a-peatones-en-lima-se-incrementan-un-37-en-lo-que-va-del-2024/
