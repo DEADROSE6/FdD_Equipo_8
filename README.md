@@ -74,20 +74,20 @@ Se almacenan datos en Micro SD para análisis posterior y mejora continua del si
 
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
 
-**ODS 3: Salud y bienestar**
+⚕️**ODS 3: Salud y bienestar**
 
 Este ODS busca garantizar una vida sana y promover el bienestar para todas las personas. Nuestro proyecto aborda específicamente la meta 3.6, que establece reducir a la mitad las muertes y lesiones causadas por accidentes de tráfico para el año 2030 (1).
 En el Perú:
 
-Entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, con un saldo de 1,853 fallecidos y más de 30,000 lesionados (3).
-El 11% de los accidentes fatales en Lima durante 2024 fue responsabilidad directa de peatones distraídos, principalmente por el uso del celular al cruzar (11).
-Para las personas con discapacidad, las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
+- Entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, con un saldo de 1,853 fallecidos y más de 30,000 lesionados (3).
+- El 11% de los accidentes fatales en Lima durante 2024 fue responsabilidad directa de peatones distraídos, principalmente por el uso del celular al cruzar (11).
+- Para las personas con discapacidad, las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
 
 SafeWalk AI contribuye a este objetivo mediante alertas personalizadas en cruces peatonales, reduciendo el riesgo de accidentes y promoviendo la seguridad, autonomía y calidad de vida de los usuarios más vulnerables.
 Ejemplos de soluciones similares a nivel global:
 
-NaviLens — sistema de señalización accesible para personas con discapacidad visual mediante códigos QR de alta velocidad.
-Microsoft Seeing AI — aplicación que usa inteligencia artificial para describir el entorno a personas con discapacidad visual en tiempo real.
+- NaviLens — sistema de señalización accesible para personas con discapacidad visual mediante códigos QR de alta velocidad.
+- Microsoft Seeing AI — aplicación que usa inteligencia artificial para describir el entorno a personas con discapacidad visual en tiempo real.
 
 
 🏭**ODS 9: Industria, innovación e infraestructura**
