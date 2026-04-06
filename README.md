@@ -74,20 +74,45 @@ Se almacenan datos en Micro SD para análisis posterior y mejora continua del si
 
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
 
-⚕️**ODS 3: Salud y bienestar**
+**ODS 3: Salud y bienestar**
 
-ODS 3: Salud y bienestar
-La meta 3.6 del ODS 3 establece reducir a la mitad las muertes y lesiones por accidentes de tráfico para 2030 (1). En el Perú, entre enero y julio de 2022 los accidentes viales ocasionaron 1,853 fallecidos y más de 30,000 lesionados (3), evidenciando el impacto directo de la inseguridad vial sobre la salud pública. Para las personas con discapacidad, este riesgo es aún mayor, ya que las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
-SafeWalk AI contribuye a este objetivo al reducir el riesgo de accidentes en cruces peatonales mediante alertas personalizadas, promoviendo así la seguridad, autonomía y calidad de vida de los usuarios más vulnerables.
+Este ODS busca garantizar una vida sana y promover el bienestar para todas las personas. Nuestro proyecto aborda específicamente la meta 3.6, que establece reducir a la mitad las muertes y lesiones causadas por accidentes de tráfico para el año 2030 (1).
+En el Perú:
+
+Entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, con un saldo de 1,853 fallecidos y más de 30,000 lesionados (3).
+El 11% de los accidentes fatales en Lima durante 2024 fue responsabilidad directa de peatones distraídos, principalmente por el uso del celular al cruzar (11).
+Para las personas con discapacidad, las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
+
+SafeWalk AI contribuye a este objetivo mediante alertas personalizadas en cruces peatonales, reduciendo el riesgo de accidentes y promoviendo la seguridad, autonomía y calidad de vida de los usuarios más vulnerables.
+Ejemplos de soluciones similares a nivel global:
+
+NaviLens — sistema de señalización accesible para personas con discapacidad visual mediante códigos QR de alta velocidad.
+Microsoft Seeing AI — aplicación que usa inteligencia artificial para describir el entorno a personas con discapacidad visual en tiempo real.
 
 
- 🏭**ODS 9: Industria, innovación e infraestructura**
- 
-La tecnología ya no tiene que ser una megaobra de infraestructura para generar impacto. En vez de sentarnos a esperar a que toda la ciudad se llene de pavimento podotáctil, creemos que la innovación debe ser personal, inmediata y caber en nuestro día a día. Nuestro proyecto lleva la seguridad directamente a los objetos que ya usamos. Combinamos sensores, conectividad e inteligencia artificial para crear algo más que un simpl; estamos diseñando tecnología que lee el entorno en tiempo real y toma decisiones rápidas para proteger al usuario en la calle.
+🏭**ODS 9: Industria, innovación e infraestructura**
 
-🏙️**ODS 11: Ciudades y comunidades sostenibles**
+Este ODS promueve la modernización de la infraestructura existente mediante la incorporación de nuevas tecnologías que la hagan más eficiente, segura e inclusiva (1).
+En el Perú:
 
-El gran reto de nuestras ciudades es crecer sin dejar a nadie atrás. Para una persona con discapacidad visual, auditiva o con déficit de atención, cruzar una avenida transitada puede ser una verdadera odisea. En el Perú, la falta de accesibilidad en las calles es evidente y esto le roba la autonomía a miles de ciudadanos así mismo limitando su vida cotidiana. Aquí es donde nuestra tecnología actúa como un puente hacia la inclusión real. El dispositivo emite alertas a la medida de cada persona  ya sea mediante vibraciones, sonidos o mensajes visuales  para guiarla en medio del caos urbano. Al final, el objetivo de este proyecto trasciende la seguridad vial: se trata de darle a cualquier persona el mismo derecho a disfrutar, acceder y recorrer su ciudad con total libertad.
+En 2023 se registraron aproximadamente 1,303 accidentes de tránsito solo en Lima, atribuidos principalmente a deficiencias en la señalización vial e infraestructura inadecuada (8).
+El 60% de los atropellos es responsabilidad del peatón, muchos de ellos relacionados con distracciones por dispositivos móviles, evidenciando la necesidad de sistemas de alerta en tiempo real (12).
+La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
+
+SafeWalk AI no requiere una transformación total de la ciudad. Combinando sensores, conectividad IoT e inteligencia artificial, lleva la seguridad directamente a los objetos que las personas ya usan, como el smartwatch o el celular, tomando decisiones en tiempo real para proteger al usuario en la calle.
+Ejemplos de soluciones similares a nivel global:
+
+Smart Traffic Systems en Singapur — semáforos inteligentes que ajustan los tiempos de cruce según el flujo peatonal en tiempo real.
+Waymap — app de navegación indoor y outdoor para personas con discapacidad visual usando IoT y sensores.
+
+
+🏙️**ODS 11: Ciudades y comunidades sostenibles** 
+Este ODS busca lograr que las ciudades sean inclusivas, seguras, resilientes y sostenibles, garantizando el acceso equitativo al espacio público para todos los ciudadanos (1).
+En el Perú:
+
+El 57.2% de las personas con discapacidad califica como mala la accesibilidad en el transporte y espacio público urbano (4).
+Lima Metropolitana concentra el 65.8% de la población con discapacidad visual del país, aproximadamente 1,966,766 personas, que enfrentan barreras diarias para desplazarse con autonomía (5).
+Los peatones con discapacidad han sido históricamente invisibilizados en el diseño de la infraestructura urbana, vulnerando su derecho a circular libremente por la ciudad (9).
 
 
 ---
