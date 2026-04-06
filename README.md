@@ -101,6 +101,7 @@ En el Perú:
 - La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
 
 🤝 **ODS 10: Reducción de las desigualdades**
+
 Este ODS busca reducir las desigualdades dentro y entre países, garantizando la inclusión social, económica y política de todas las personas, independientemente de su condición (1).
 En el Perú:
 
