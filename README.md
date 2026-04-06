@@ -110,7 +110,8 @@ El 58.7% de los encuestados en ciudades peruanas calificó como deficiente la ge
 El derecho a la accesibilidad es una de las garantías fundamentales en materia de discapacidad que ha tenido mayor desarrollo normativo en los últimos años, sin embargo su implementación real sigue siendo insuficiente (9).
 
 
-🏙️**ODS 11: Ciudades y comunidades sostenibles** 
+🏙️**ODS 11: Ciudades y comunidades sostenibles**
+
 Este ODS busca lograr que las ciudades sean inclusivas, seguras, resilientes y sostenibles, garantizando el acceso equitativo al espacio público para todos los ciudadanos (1).
 En el Perú:
 
