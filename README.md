@@ -28,55 +28,46 @@ Este proyecto contribuye a los ODS 3, 9 y 11, promoviendo la seguridad vial, la 
 
 # PROBLEMÁTICA
 
-En el Perú, los accidentes de tránsito constituyen una de las principales problemáticas de seguridad pública, especialmente en zonas urbanas como Lima, donde el alto flujo vehicular y peatonal incrementa el riesgo de atropellos.
-
-Una de las causas más frecuentes es la distracción de los peatones, principalmente por el uso del celular al momento de cruzar la vía, lo que reduce su capacidad de reacción ante situaciones de peligro.
-
-A esto se suma la falta de infraestructura tecnológica en los cruces peatonales, ya que la mayoría de semáforos son sistemas tradicionales que no responden al comportamiento en tiempo real de las personas.
-
-Esta situación evidencia la necesidad de implementar soluciones inteligentes que permitan detectar riesgos y alertar oportunamente a los peatones, contribuyendo así a la reducción de accidentes y a la mejora de la seguridad vial en el país.
-
+La movilidad urbana es fundamental para el desarrollo de las ciudades, sin embargo, en el Perú la seguridad vial continúa siendo un desafío importante, especialmente para los peatones. El alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito incrementan el riesgo de accidentes, y estudios en Lima confirman que la congestión vehicular puede inducir comportamientos más arriesgados en los peatones al momento de cruzar (10).
+Esta situación se vuelve aún más crítica para personas con discapacidad o movilidad reducida. En ciudades como Trujillo, los ciudadanos con discapacidad visual, auditiva o motriz han sido históricamente invisibilizados en el espacio público, enfrentando sistemas de señalización que no consideran sus necesidades reales de accesibilidad (4).
 ---
 
 # PROPUESTA DE SOLUCIÓN
 
-Como solución a esta problemática, se propone el desarrollo de SafeWalk AI, un sistema inteligente de alerta para peatones que integra sensores de movimiento, medición de distancia y visión artificial mediante ESP32-CAM, junto con conectividad IoT.
-
-Este sistema busca prevenir accidentes en cruces urbanos, detectando situaciones de riesgo en tiempo real y generando alertas accesibles.
-
-Además, incorpora un enfoque inclusivo al brindar asistencia tanto a peatones distraídos como a personas con discapacidad visual y auditiva, mediante alertas sonoras, visuales y notificaciones móviles.
+Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que, mediante el uso de visión artificial con ESP32-CAM, sensores de distancia y conectividad IoT, detecta situaciones de riesgo en cruces peatonales y genera alertas accesibles para dos tipos de usuarios: peatones distraídos por el uso del celular, mediante alertas sonoras y visuales en el semáforo (11, 12), y personas con discapacidad visual o auditiva, mediante notificaciones personalizadas en aplicaciones móviles o relojes inteligentes. Dado que la exclusión de las personas con discapacidad en su libre desplazamiento conlleva que no puedan integrarse a la vida económica y social, perjudicando su calidad de vida (4), este sistema busca contribuir a una movilidad urbana más segura e inclusiva, alineándose con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11 (1).
 
 Su diseño compacto, basado en una estructura impresa en 3D, permite su implementación como un prototipo funcional y escalable hacia ciudades inteligentes.
 
 ---
 
-# ¿Cómo funciona el proyecto?
+#¿Cómo funciona el proyecto?
+##Detección
+Sensores PIR y ultrasónico identifican la presencia y proximidad de peatones en el cruce. La cámara ESP32-CAM detecta objetos asociados a personas con discapacidad, como bastones blancos o sillas de ruedas, reconociendo automáticamente a usuarios vulnerables.
+##Análisis
+La ESP32-CAM captura imágenes y evalúa el comportamiento del peatón, identificando situaciones de riesgo como el uso del celular al momento de cruzar, así como el perfil de movilidad del usuario según los objetos detectados.
+##Clasificación
+El sistema determina el nivel de riesgo en tres estados:
 
-## Detección
-Sensores (PIR y ultrasónico) identifican la presencia y proximidad de peatones.
+Seguro — el peatón cruza con atención y sin riesgo inmediato
+Sospechoso — se detecta distracción o comportamiento de riesgo
+Peligro — situación de riesgo inminente para el peatón
 
-## Análisis
-La ESP32-CAM captura imágenes y evalúa el comportamiento del peatón (ej. distracción por celular).
+##Respuesta en el semáforo
+Se activan alertas físicas según el nivel de riesgo detectado:
 
-## Clasificación
-El sistema determina el nivel de riesgo: seguro, sospechoso o peligro.
+Luces tipo semáforo
+Sonido mediante buzzer
+Mensajes en pantalla
 
-## Respuesta
-Se activan alertas según el nivel de riesgo:
+##Respuesta en app móvil / smartwatch
+De forma simultánea, el sistema envía señales vía Bluetooth o WiFi al dispositivo personal del usuario, con alertas diferenciadas según su perfil registrado:
 
-- Luces tipo semáforo  
-- Sonido (buzzer)  
-- Mensajes en pantalla  
+Discapacidad visual — alerta sonora automática al detectar bastón blanco
+Discapacidad auditiva — alerta visual y patrones de vibración en smartwatch o app móvil, donde pulsos cortos indican precaución y pulsos largos indican peligro
+Discapacidad motriz — tiempo extendido de cruce al detectar silla de ruedas y notificación en app móvil
 
-## Accesibilidad
-
-- Alertas sonoras para personas con discapacidad visual  
-- Notificaciones y vibración mediante app móvil para personas con discapacidad auditiva  
-
-## Registro de datos
-
-Se almacenan datos en Micro SD para análisis y mejora del sistema.
-
+##Registro de datos
+Se almacenan datos en Micro SD para análisis posterior y mejora continua del sistema.
 ---
 
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
@@ -84,8 +75,8 @@ Se almacenan datos en Micro SD para análisis y mejora del sistema.
 ⚕️**ODS 3: Salud y bienestar**
 
 ODS 3: Salud y bienestar
-Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo para el año 2030 (1). En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más expuestos a estos riesgos, entre ellos los peatones con discapacidad, cuya seguridad física al desplazarse por la vía pública está directamente vinculada con su bienestar y su capacidad de acceder a servicios de salud y rehabilitación.
-Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo de accidentes en cruces peatonales para personas con discapacidad, contribuyendo así a preservar su integridad física y promover su bienestar. A través de un sistema que detecta objetos asociados a peatones vulnerables y envía alertas personalizadas a dispositivos inteligentes, se busca que estas personas puedan desplazarse con mayor seguridad y autonomía, lo cual representa una mejora directa en su salud y calidad de vida.
+La meta 3.6 del ODS 3 establece reducir a la mitad las muertes y lesiones por accidentes de tráfico para 2030 (1). En el Perú, entre enero y julio de 2022 los accidentes viales ocasionaron 1,853 fallecidos y más de 30,000 lesionados (3), evidenciando el impacto directo de la inseguridad vial sobre la salud pública. Para las personas con discapacidad, este riesgo es aún mayor, ya que las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
+SafeWalk AI contribuye a este objetivo al reducir el riesgo de accidentes en cruces peatonales mediante alertas personalizadas, promoviendo así la seguridad, autonomía y calidad de vida de los usuarios más vulnerables.
 
 
  🏭**ODS 9: Industria, innovación e infraestructura**
