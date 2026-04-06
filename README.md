@@ -100,6 +100,14 @@ En el Perú:
 - El 60% de los atropellos es responsabilidad del peatón, muchos de ellos relacionados con distracciones por dispositivos móviles, evidenciando la necesidad de sistemas de alerta en tiempo real (12).
 - La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
 
+🤝 **ODS 10: Reducción de las desigualdades**
+Este ODS busca reducir las desigualdades dentro y entre países, garantizando la inclusión social, económica y política de todas las personas, independientemente de su condición (1).
+En el Perú:
+
+Más de 3 millones de personas presentan algún tipo de discapacidad, representando una parte significativa de la población que enfrenta barreras diarias para desplazarse en el espacio urbano (2).
+El 58.7% de los encuestados en ciudades peruanas calificó como deficiente la gestión del transporte público inclusivo, mientras que el 57.2% consideró mala la accesibilidad para personas con discapacidad (4).
+El derecho a la accesibilidad es una de las garantías fundamentales en materia de discapacidad que ha tenido mayor desarrollo normativo en los últimos años, sin embargo su implementación real sigue siendo insuficiente (9).
+
 
 🏙️**ODS 11: Ciudades y comunidades sostenibles** 
 Este ODS busca lograr que las ciudades sean inclusivas, seguras, resilientes y sostenibles, garantizando el acceso equitativo al espacio público para todos los ciudadanos (1).
