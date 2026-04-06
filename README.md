@@ -122,14 +122,14 @@ El gran reto de nuestras ciudades es crecer sin dejar a nadie atrás. Para una p
 ## 📌 Resumen Final  
 El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 3, 9 y 11 ,los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
 
-📄 Referencias Bibliográficas :
+📑 Referencias Bibliográficas:
 
- *1.* Organización Mundial de la Salud. Lesiones causadas por el tránsito.OMS 2023  https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
- 
- *2.* Gobierno del Perú. Reporte estadístico de siniestros viales 2022. Lima: Gobierno del Perú_2022. https://cdn.www.gob.pe/uploads/document/file/4489498/Reporte%20Estad%C3%ADstico%20de%20Siniestros%20Viales%202022.pdf
- 
- *3.* Infocop. Consecuencias psicológicas, físicas y socioeconómicas de los accidentes de tráfico_2024. https://www.infocop.es/consecuencias-psicologicas-fisicas-y-socioeconomicas-de-los-accidentes-de-trafico-2/
- 
- *4.* Defensoría del Pueblo. Se debe garantizar que espacios y servicios públicos sean accesibles para personas con discapacidad. Lima: Defensoría del Pueblo_2023  https://www.gob.pe/institucion/defensoria/noticias/685982-defensoria-del-pueblo-se-debe-garantizar-que-espacios-y-servicios-publicos-sean-accesibles-para-personas-con-discapacidad
- 
-*5.* Defensoría del Pueblo. Defensoría identifica más de 150 puntos críticos que afectan derechos de personas que transitan por el centro de Lima_2023.  https://www.defensoria.gob.pe/defensoria-del-pueblo-identifica-mas-de-150-puntos-criticos-que-afectan-derechos-de-personas-que-transitan-por-el-centro-de-lima/
+*1* Organización Mundial de la Salud. Lesiones causadas por el tránsito [Internet]. Ginebra: OMS; 2023 [citado 5 abr 2026]. Disponible en: https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
+
+*2* Gobierno del Perú. Reporte estadístico de siniestros viales 2022 [Internet]. Lima: Gobierno del Perú; 2022 [citado 5 abr 2026]. Disponible en: https://cdn.www.gob.pe/uploads/document/file/4489498/Reporte%20Estad%C3%ADstico%20de%20Siniestros%20Viales%202022.pdf
+
+*3* Infocop. Consecuencias psicológicas, físicas y socioeconómicas de los accidentes de tráfico [Internet]. Madrid: Infocop; 2024 [citado 5 abr 2026]. Disponible en: https://www.infocop.es/consecuencias-psicologicas-fisicas-y-socioeconomicas-de-los-accidentes-de-trafico-2/
+
+*4* Defensoría del Pueblo. Se debe garantizar que espacios y servicios públicos sean accesibles para personas con discapacidad [Internet]. Lima: Defensoría del Pueblo; 2023 [citado 5 abr 2026]. Disponible en: https://www.gob.pe/institucion/defensoria/noticias/685982-defensoria-del-pueblo-se-debe-garantizar-que-espacios-y-servicios-publicos-sean-accesibles-para-personas-con-discapacidad
+
+*5* Defensoría del Pueblo. Defensoría identifica más de 150 puntos críticos que afectan derechos de personas que transitan por el centro de Lima [Internet]. Lima: Defensoría del Pueblo; 2023 [citado 5 abr 2026]. Disponible en: https://www.defensoria.gob.pe/defensoria-del-pueblo-identifica-mas-de-150-puntos-criticos-que-afectan-derechos-de-personas-que-transitan-por-el-centro-de-lima/
