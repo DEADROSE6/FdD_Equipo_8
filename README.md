@@ -83,7 +83,10 @@ Se almacenan datos en Micro SD para análisis y mejora del sistema.
 
 ⚕️**ODS 3: Salud y bienestar**
 
-Hoy en día, caminar por la ciudad supone un riesgo real para nuestra salud y tranquilidad. Los accidentes de tránsito no solo golpean nuestra integridad física, sino que nos llenan de estrés y miedo al salir a la calle. La OMS ya lo advierte: las muertes viales son una crisis global que afecta, sobre todo, a los peatones y a los más vulnerables. En el Perú esto se vive a diario. Tenemos un tránsito caótico y zonas donde la señalización brilla por su ausencia, lo que multiplica el peligro. Nuestro proyecto ataca justamente esto: queremos advertir al usuario que hay peligro a su alrededor. Al anticipar el riesgo, reducimos las cifras de lesiones y, lo más importante, le devolvemos a la gente la confianza para moverse segura por su ciudad.
+ODS 3: Salud y bienestar
+Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo para el año 2030 (1). En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más expuestos a estos riesgos, entre ellos los peatones con discapacidad, cuya seguridad física al desplazarse por la vía pública está directamente vinculada con su bienestar y su capacidad de acceder a servicios de salud y rehabilitación.
+Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo de accidentes en cruces peatonales para personas con discapacidad, contribuyendo así a preservar su integridad física y promover su bienestar. A través de un sistema que detecta objetos asociados a peatones vulnerables y envía alertas personalizadas a dispositivos inteligentes, se busca que estas personas puedan desplazarse con mayor seguridad y autonomía, lo cual representa una mejora directa en su salud y calidad de vida.
+
 
  🏭**ODS 9: Industria, innovación e infraestructura**
  
