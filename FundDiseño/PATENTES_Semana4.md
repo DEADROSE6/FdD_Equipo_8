@@ -5,7 +5,7 @@ PATENTES RELACIONADAS CON NUESTRO PROYECTO
 | N° PUBLICACIÓN | [**ES1073627U**](https://worldwide.espacenet.com/patent/search?q=pn%3DES1073627U) |  |  |  |
 | CIP | ***G08G1/005*** |  |  |  |
 | RESUMEN | La patente describe un módulo óptico para semáforos peatonales que incorpora iluminación LED y señales acústicas para ayudar a personas con discapacidad visual. El sistema integra un módulo electrónico que controla simultáneamente las luces y el sonido, permitiendo indicar de forma clara cuándo es seguro cruzar. Incluye una carcasa compatible con semáforos convencionales y un altavoz integrado para emitir las alertas. Su objetivo es mejorar la accesibilidad en cruces peatonales. Se centra en asistencia básica mediante luz y sonido sincronizados. |  | IMAGEN |  |
-|  |  |  | ![](https://raw.githubusercontent.com/USUARIO/REPO/main/Recursos/Imágenes/img6.jpeg) ![](https://raw.githubusercontent.com/USUARIO/REPO/main/Recursos/Imágenes/img4.jpeg) |  |
+|  |  |  | ![](Recursos/Imagenes/img6.jpeg) ![](Recursos/Imagenes/img4.jpeg) |  |
 | LINK | [https://worldwide.espacenet.com/patent/search/family/043447627/publication/ES1073627U?q=pn%3DES1073627U](https://worldwide.espacenet.com/patent/search/family/043447627/publication/ES1073627U?q=pn%3DES1073627U) |  |  |  |
 
 | TÍTULO | MÉTODO Y SISTEMA DE NAVEGACIÓN INTELIGENTE PARA PERSONAS CON DISCAPACIDAD VISUAL. |  |  |  |
