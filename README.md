@@ -1,4 +1,4 @@
-﻿# Equipo 8 - Fundamentos de Diseño
+﻿# Equipo 8 - SafeWalk IA
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
