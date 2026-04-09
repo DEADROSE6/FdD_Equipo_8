@@ -124,7 +124,7 @@ En el Perú:
 
 ## 📸 Fotografía del Equipo 
 <p align="center">
-<img width="1408" height="768" alt="imagen_alumnos_IA" src="Recursos/Imágenes/WhatsApp Image 2026-03-17 at 10.03.50 PM.jpeg" />
+<img width="1408" height="768" alt="imagen_alumnos_IA" src="Recursos/Imagenes/WhatsApp Image 2026-03-17 at 10.03.50 PM.jpeg" />
   <em>Figura 1. Fotografía del equipo 8</em>
 </p>
 
