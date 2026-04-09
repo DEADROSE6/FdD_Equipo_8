@@ -12,7 +12,7 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 ---
 
-# DESCRIPCION DEL PROYECTO
+# 🧾 DESCRIPCION DEL PROYECTO
 
 El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el espacio urbano.
 
@@ -26,13 +26,13 @@ SafeWalk AI contribuye a los ODS 3, 9, 10 y 11, promoviendo la seguridad vial, l
 
 ---
 
-# CONTEXTO
+# 🌍 CONTEXTO
 
 La movilidad urbana es un aspecto fundamental para el desarrollo de las ciudades, ya que permite el desplazamiento seguro de las personas dentro del espacio público. Sin embargo, en muchos países, incluyendo el Perú, la seguridad vial continúa siendo un desafío importante, especialmente para los peatones, quienes representan uno de los grupos más vulnerables dentro del sistema de tránsito. La interacción constante entre vehículos y peatones en las vías urbanas, sumada a factores como el alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito, incrementa el riesgo de accidentes. Estudios realizados en Lima evidencian que los peatones tienden a elegir rutas más cortas para cruzar, influenciados por la ubicación de elementos urbanos, y que la congestión vehicular puede inducir comportamientos más arriesgados que aumentan el riesgo de accidentes (1).
 
 Esta situación se vuelve aún más crítica para las personas con discapacidad visual, quienes enfrentan mayores dificultades al momento de desplazarse de forma autónoma por el espacio público. Un estudio del Banco Interamericano de Desarrollo que evaluó la accesibilidad peatonal en rutas urbanas con participación de personas con distintos tipos de discapacidad concluyó que las personas con discapacidad visual son las más afectadas por las barreras presentes en el entorno urbano, especialmente en los recorridos asociados a cruces peatonales y paradas de transporte público (2). En muchos casos, los sistemas de señalización existentes no están diseñados considerando plenamente las necesidades de accesibilidad de estas personas, lo que limita su capacidad de desplazarse con seguridad ante situaciones de riesgo vial.
 
-# EVIDENCIA DEL PROBLEMA
+# 📊 EVIDENCIA DEL PROBLEMA
 
  En el Perú, los accidentes de tránsito representan un problema significativo de seguridad pública. De acuerdo con información del Ministerio de Transportes y Comunicaciones del Perú, entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, los cuales ocasionaron 1,853 fallecidos y más de 30,000 personas lesionadas (3). Dentro de estas cifras, los peatones constituyen uno de los grupos más afectados, representando aproximadamente el 25.7% de las personas fallecidas en accidentes de tránsito. A nivel local, según el Observatorio Nacional de Seguridad Vial, solo en el departamento de Lima se registraron aproximadamente 1,303 accidentes de tránsito en 2023, atribuidos principalmente a las malas condiciones de las carreteras y la inadecuada señalización vial (3).
  
@@ -42,7 +42,7 @@ Estos datos evidencian que el entorno vial presenta riesgos importantes para qui
 
 La magnitud de esta población contrasta con la precariedad de las condiciones de accesibilidad que enfrentan en el espacio público. Según el BID, las rutas peatonales asociadas al transporte urbano presentan deficiencias críticas para las personas con discapacidad visual, siendo este grupo el más perjudicado por la falta de infraestructura adaptada (2). Esta brecha entre las necesidades reales de la población y la oferta de infraestructura urbana refleja una problemática sistémica que afecta directamente la seguridad y autonomía de las personas con discapacidad visual en los espacios públicos.
 
-# JUSTIFICACIÓN DEL PROYECTO
+# 💡 JUSTIFICACIÓN DEL PROYECTO
 
 Frente a esta problemática, surge la necesidad de desarrollar soluciones que contribuyan a mejorar la seguridad de los peatones en los espacios urbanos. Si bien el Estado peruano ha establecido un marco legal orientado a garantizar la accesibilidad, la implementación de estas normativas no ha sido efectiva, ya que persisten barreras físicas, sociales e institucionales, entre ellas la falta de asignación de un presupuesto público razonable y la ausencia de mecanismos de fiscalización adecuados (5).
 
@@ -85,7 +85,7 @@ Se almacenan datos en Micro SD para análisis posterior y mejora continua del si
 
 ---
 
-# OBJETIVOS DE DESARROLLO SOSTENIBLE
+# 🌍 OBJETIVOS DE DESARROLLO SOSTENIBLE
 
 Los Objetivos de Desarrollo Sostenible (ODS) son un conjunto de metas globales establecidas por la Organización de las Naciones Unidas como parte de la Agenda 2030 para el Desarrollo Sostenible, adoptada en el año 2015 por los Estados miembros (9). Estos objetivos buscan orientar los esfuerzos de los países hacia un desarrollo que permita mejorar la calidad de vida de las personas, reducir las desigualdades y proteger el planeta.
 
