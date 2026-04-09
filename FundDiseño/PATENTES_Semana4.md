@@ -14,7 +14,7 @@ PATENTES RELACIONADAS CON NUESTRO PROYECTO
 | N° PUBLICACIÓN | [**US2021369545A1**](https://worldwide.espacenet.com/patent/search?q=pn%3DUS2021369545A1)  |  |  |  |
 | CIP | ***A61H3/06 ; G01S15/08 ; G01S15/52 ; G01S15/89 ; G01S7/292 ; G06K9/62 ; G10L13/027***  |  |  |  |
 | RESUMEN | La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones (sistema háptico) en lugar de señales visuales o auditivas. Utiliza geolocalización (GPS) para determinar la posición y, mediante un algoritmo, genera patrones táctiles que indican la dirección. El dispositivo incluye una placa electrónica, batería y actuadores en formato tipo pulsera. Además, puede conectarse a un dispositivo móvil para procesar los datos. Su objetivo es brindar navegación accesible y eficiente mediante señales táctiles.  |  | IMAGEN |  |
-|  |  |  | ![][image3]![][image4] |  |
+|  |  |  | ![](../Recursos/Imagenes/img8.jpeg) ![](../Recursos/Imagenes/img7.jpeg) |  |
 | LINK | [https://worldwide.espacenet.com/patent/search/family/078706485/publication/US2021369545A1?q=pn%3DUS2021369545A1](https://worldwide.espacenet.com/patent/search/family/078706485/publication/US2021369545A1?q=pn%3DUS2021369545A1)  |  |  |  |
 
 | TÍTULO | DISPOSITIVO HÁPTICO VIBRATORIO PARA CIEGOS |  |  |  |
