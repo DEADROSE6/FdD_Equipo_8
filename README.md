@@ -147,21 +147,22 @@ El proyecto propuesto se relaciona con este objetivo porque busca aportar a la c
 ## 📌 Resumen Final  
 El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 3, 9 y 11 ,los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
 
-📑 Referencias Bibliográficas:
+## 📑 Referencias Bibliográficas:
 
-**1.** Organización de las Naciones Unidas. Objetivos de Desarrollo Sostenible [Internet]. Nueva York: ONU; 2015 [citado 2025]. Disponible en: https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/ 
+**1.** Huamaní Meza A, et al. Seguridad vial y peatones en Lima Metropolitana [Internet]. Lima: Editorial Innova; 2023 [citado 2025]. Disponible en: https://www.editorialinnova.com/index.php/nrj/article/view/323  
 
-**2.** Velásquez Reyes D, et al. Accesibilidad y movilidad para personas con discapacidad [Internet]. Lima: USIL; 2021 [citado 2025]. Disponible en: https://repositorio.usil.edu.pe/server/api/core/bitstreams/b5a83695-5c17-4e21-905c-b8c2fc364bfa/content 
-
+**2.** Rodríguez Porcel M, Lee S, Sandoval D, Tascón Valencia J, Jaramillo PJ, Pedraza L. Auditoría georreferenciada y diagnóstico de accesibilidad peatonal de personas con discapacidad en la primera y última milla de un viaje [Internet]. Washington D.C.: Banco Interamericano de Desarrollo; 2023 [citado 2025]. Disponible en: https://publications.iadb.org/es/auditoria-georreferenciada-y-diagnostico-de-accesibilidad-peatonal-de-personas-con-discapacidad-en 
+ 
 **3.** Ministerio de Transportes y Comunicaciones del Perú. De enero a julio del 2022 ocurrieron más de 47 mil siniestros de tránsito en el Perú [Internet]. Lima: MTC; 2022 [citado 2025]. Disponible en: https://www.gob.pe/institucion/mtc/noticias/647689-de-enero-a-julio-del-2022-ocurrieron-mas-de-47-mil-siniestros-de-transito-en-el-peru/
 
-**4.** Ponce-Rojas KJ. Transporte público urbano inclusivo desde la percepción de las personas con discapacidad en una ciudad de Perú. Revista de Climatología Edición Especial Ciencias Sociales [Internet]. 2023 [citado 2025]; 23: 114-125. Disponible en: https://rclimatol.eu/wp-content/uploads/2023/04/ArticuloCS23h.pdf
+**4.** Instituto Nacional de Estadística e Informática. Perfiles sociodemográficos de la población con discapacidad [Internet]. Lima: INEI; 2019 [citado 2025]. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1675/libro.pdf  
 
 **5.** Seminario-Hurtado N, Alfaro Torres HM. Accesibilidad en entornos urbanos para personas con discapacidad visual en el Perú: un análisis normativo. Cuadernos de Vivienda y Urbanismo [Internet]. 2025 [citado 2025]; 18. Disponible en: https://revistas.javeriana.edu.co/index.php/cvyu/article/view/41190/
 
-**10.** Malpartida Saldaña J, Ricalde Dominguez MO. Seguridad vial del peatón alrededor del Óvalo Higuereta, Lima [Tesis de licenciatura]. Lima: Pontificia Universidad Católica del Perú; 2024. Disponible en: https://tesis.pucp.edu.pe/items/e02fa5b8-1e76-4be8-8e7a-ebf7ba0410a0 
+**6.** Ji H, Mendonça I, Aritsugi M. Multi-Scene Dataset and Object Detector for Outside Blind Individual Identification. IEEE Access [Internet]. 2026 [citado 2026]; 14: 1423-1438. Disponible en: https://ieeexplore.ieee.org/document/11317963  
 
-**11.** División de Prevención e Investigación de Accidentes de Tránsito - PNP. Peatones que usan celular en las pistas causan accidentes de tránsito fatales [Internet]. Lima: Diario Oficial El Peruano; 2024 [citado 2025]. Disponible en: https://www.elperuano.pe/noticia/242509-peatones-que-usan-celular-en-las-pistas-causan-accidentes-de-transito-fatales 
+**7.** Leong X, Kanesaraj Ramasamy R. Obstacle Detection and Distance Estimation for Visually Impaired People. IEEE Access [Internet]. 2023 [citado 2025]; 11: 136609-136629. Disponible en: https://ieeexplore.ieee.org/document/10336791 
 
-**12.** Quispe Candia L. Peatones que usan celular en vía pública pueden ser víctimas de atropellos [Internet]. Lima: Agencia Andina; 2013 [citado 2025]. Disponible en: https://andina.pe/agencia/noticia-peatones-usan-celular-via-publica-pueden-ser-victimas-atropellos-472593.aspx
+**8.** Ferreira AA, Barros CAL, Pereira TEB, Santana MFA, Silva IDS, Oliveira FS. Modular Smart Glasses for Real-Time Obstacle Detection in Blind Navigation. IEEE [Internet]. 2025 [citado 2025]. Disponible en: https://ieeexplore.ieee.org/document/11334173 
 
+**9.**  Organización de las Naciones Unidas. Objetivos de Desarrollo Sostenible [Internet]. Nueva York: ONU; 2015 [citado 2025]. Disponible en: https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/ 
