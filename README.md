@@ -14,29 +14,42 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 # DESCRIPCION DEL PROYECTO
 
-El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de alerta para peatones que previene accidentes en cruces urbanos mediante sensores, visión artificial con ESP32-CAM e IoT.
+El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el espacio urbano.
 
-El sistema detecta peatones distraídos, evalúa su comportamiento en tiempo real y clasifica el nivel de riesgo, activando alertas visuales, sonoras y mensajes en pantalla solo cuando es necesario.
+El sistema utiliza visión artificial basada en YOLO, ejecutada sobre una Jetson Nano, para detectar en tiempo real la presencia simultánea de bastón blanco y gafas en un peatón. Al identificar ambos objetos al mismo tiempo, el sistema infiere que se trata de una persona con discapacidad visual y activa de forma automática una alerta sonora a través de un altavoz instalado en el semáforo, notificando tanto al peatón vulnerable como a los demás transeúntes cercanos, quienes al escuchar el aviso pueden brindar asistencia o actuar con mayor precaución en el cruce.
 
-Además, registra datos en Micro SD para análisis básico de patrones.
+La elección de Jetson Nano responde a una necesidad técnica concreta: al contar con GPU NVIDIA integrada, permite ejecutar modelos de detección de objetos como YOLO con baja latencia y alta eficiencia en tiempo real, algo que no puede garantizarse con alternativas como el ESP32-CAM o incluso una Raspberry Pi 5, cuya arquitectura CPU no está optimizada para inferencia de imágenes con inteligencia artificial.
 
-Asimismo, el proyecto incorpora un enfoque inclusivo, ya que brinda asistencia a personas con discapacidad visual mediante alertas sonoras en el cruce peatonal(cebra), y a personas con discapacidad auditiva mediante la conexión con una aplicación móvil que envía vibraciones y notificaciones en tiempo real, permitiendo advertir situaciones de riesgo de manera accesible.
+Este proyecto nace como propuesta de solución frente a una problemática documentada en fuentes oficiales del gobierno peruano, revistas científicas indexadas en Scielo e IEEE, que evidencian tanto la vulnerabilidad de las personas con discapacidad visual en entornos urbanos como el potencial de la visión artificial aplicada a la seguridad vial.
 
-Este proyecto contribuye a los ODS 3, 9, 10 y 11, promoviendo la seguridad vial, la innovación tecnológica y el desarrollo de ciudades más inclusivas y seguras.
+SafeWalk AI contribuye a los ODS 3, 9, 10 y 11, promoviendo la seguridad vial, la innovación tecnológica aplicada a infraestructura urbana y el desarrollo de ciudades más inclusivas y seguras para todos.
 
 ---
 
-# PROBLEMÁTICA
+# CONTEXTO
 
-La movilidad urbana es fundamental para el desarrollo de las ciudades, sin embargo, en el Perú la seguridad vial continúa siendo un desafío importante, especialmente para los peatones. El alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito incrementan el riesgo de accidentes, y estudios en Lima confirman que la congestión vehicular puede inducir comportamientos más arriesgados en los peatones al momento de cruzar (10).
-Esta situación se vuelve aún más crítica para personas con discapacidad o movilidad reducida. En ciudades como Trujillo, los ciudadanos con discapacidad visual, auditiva o motriz han sido históricamente invisibilizados en el espacio público, enfrentando sistemas de señalización que no consideran sus necesidades reales de accesibilidad (4). 
+La movilidad urbana es un aspecto fundamental para el desarrollo de las ciudades, ya que permite el desplazamiento seguro de las personas dentro del espacio público. Sin embargo, en muchos países, incluyendo el Perú, la seguridad vial continúa siendo un desafío importante, especialmente para los peatones, quienes representan uno de los grupos más vulnerables dentro del sistema de tránsito. La interacción constante entre vehículos y peatones en las vías urbanas, sumada a factores como el alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito, incrementa el riesgo de accidentes. Estudios realizados en Lima evidencian que los peatones tienden a elegir rutas más cortas para cruzar, influenciados por la ubicación de elementos urbanos, y que la congestión vehicular puede inducir comportamientos más arriesgados que aumentan el riesgo de accidentes (1).
 
+Esta situación se vuelve aún más crítica para las personas con discapacidad visual, quienes enfrentan mayores dificultades al momento de desplazarse de forma autónoma por el espacio público. Un estudio del Banco Interamericano de Desarrollo que evaluó la accesibilidad peatonal en rutas urbanas con participación de personas con distintos tipos de discapacidad concluyó que las personas con discapacidad visual son las más afectadas por las barreras presentes en el entorno urbano, especialmente en los recorridos asociados a cruces peatonales y paradas de transporte público (2). En muchos casos, los sistemas de señalización existentes no están diseñados considerando plenamente las necesidades de accesibilidad de estas personas, lo que limita su capacidad de desplazarse con seguridad ante situaciones de riesgo vial.
 
-# PROPUESTA DE SOLUCIÓN
+# EVIDENCIA DEL PROBLEMA
 
-Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que, mediante el uso de visión artificial con ESP32-CAM, sensores de distancia y conectividad IoT, detecta situaciones de riesgo en cruces peatonales y genera alertas accesibles para dos tipos de usuarios: peatones distraídos por el uso del celular, mediante alertas sonoras y visuales en el semáforo (11, 12), y personas con discapacidad visual o auditiva, mediante notificaciones personalizadas en aplicaciones móviles o relojes inteligentes. Dado que la exclusión de las personas con discapacidad en su libre desplazamiento conlleva que no puedan integrarse a la vida económica y social, perjudicando su calidad de vida (4), este sistema busca contribuir a una movilidad urbana más segura e inclusiva, alineándose con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11 (1).
+ En el Perú, los accidentes de tránsito representan un problema significativo de seguridad pública. De acuerdo con información del Ministerio de Transportes y Comunicaciones del Perú, entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, los cuales ocasionaron 1,853 fallecidos y más de 30,000 personas lesionadas (3). Dentro de estas cifras, los peatones constituyen uno de los grupos más afectados, representando aproximadamente el 25.7% de las personas fallecidas en accidentes de tránsito. A nivel local, según el Observatorio Nacional de Seguridad Vial, solo en el departamento de Lima se registraron aproximadamente 1,303 accidentes de tránsito en 2023, atribuidos principalmente a las malas condiciones de las carreteras y la inadecuada señalización vial (3).
+ 
+Esta situación se agrava para las personas con discapacidad visual. Los Censos Nacionales 2017 del INEI revelaron que aproximadamente 1,966,766 personas en el Perú experimentan dificultades o limitaciones permanentes en la visión, siendo Lima Metropolitana la zona con mayor concentración de esta población, representando el 65.8% del total (4). Estas personas enfrentan barreras concretas al desplazarse por la ciudad: la ausencia de semáforos sonoros, la falta de pisos podotáctiles y la inadecuada señalización en los cruces peatonales limitan su capacidad de circular de forma segura e independiente (5).
 
-Su diseño compacto, basado en una estructura impresa en 3D, permite su implementación como un prototipo funcional y escalable hacia ciudades inteligentes.
+Estos datos evidencian que el entorno vial presenta riesgos importantes para quienes se desplazan a pie, especialmente en intersecciones y cruces peatonales. Para las personas con discapacidad visual, este riesgo es aún mayor. Como señalan Seminario-Hurtado y Alfaro Torres (5), las barreras físicas en el entorno urbano no solo limitan la movilidad de estas personas, sino que también restringen su acceso a servicios esenciales, afectando directamente su calidad de vida y autonomía.
+
+La magnitud de esta población contrasta con la precariedad de las condiciones de accesibilidad que enfrentan en el espacio público. Según el BID, las rutas peatonales asociadas al transporte urbano presentan deficiencias críticas para las personas con discapacidad visual, siendo este grupo el más perjudicado por la falta de infraestructura adaptada (2). Esta brecha entre las necesidades reales de la población y la oferta de infraestructura urbana refleja una problemática sistémica que afecta directamente la seguridad y autonomía de las personas con discapacidad visual en los espacios públicos.
+
+# JUSTIFICACIÓN DEL PROYECTO
+
+Frente a esta problemática, surge la necesidad de desarrollar soluciones que contribuyan a mejorar la seguridad de los peatones en los espacios urbanos. Si bien el Estado peruano ha establecido un marco legal orientado a garantizar la accesibilidad, la implementación de estas normativas no ha sido efectiva, ya que persisten barreras físicas, sociales e institucionales, entre ellas la falta de asignación de un presupuesto público razonable y la ausencia de mecanismos de fiscalización adecuados (5).
+
+En este sentido, entre las medidas recomendadas para mejorar la accesibilidad en entornos urbanos para personas con discapacidad visual se encuentran los semáforos sonoros, los pisos podotáctiles y los carteles con información en braille; sin embargo, su aplicación no es generalizada ni adecuada en el Perú (5). Esto evidencia que las soluciones tradicionales son insuficientes y que se requiere innovar en la forma en que las alertas de riesgo llegan específicamente a las personas invidentes en los cruces peatonales.
+
+Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que, mediante el uso de visión artificial con YOLO implementado en una Raspberry Pi 5 y una cámara, detecta en tiempo real objetos asociados a personas con discapacidad visual —específicamente el bastón blanco y las gafas oscuras— en cruces peatonales, y genera una alerta sonora a través de un altavoz instalado en el semáforo. Este aviso busca beneficiar tanto a la persona invidente como a los demás peatones presentes, quienes al escuchar la alerta pueden brindar apoyo. Investigaciones previas han demostrado la viabilidad de sistemas similares basados en Raspberry Pi con redes neuronales convolucionales para la detección de objetos en tiempo real (6, 7, 8). Dado que la brecha de accesibilidad peatonal para personas con discapacidad visual en espacios urbanos persiste pese a la normativa existente (2), este sistema busca contribuir a una movilidad urbana más segura e inclusiva, alineándose con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11 (9).
+
 
 ---
 
@@ -72,52 +85,39 @@ Se almacenan datos en Micro SD para análisis posterior y mejora continua del si
 
 ---
 
+# OBJETIVOS DE DESARROLLO SOSTENIBLE
+
+Los Objetivos de Desarrollo Sostenible (ODS) son un conjunto de metas globales establecidas por la Organización de las Naciones Unidas como parte de la Agenda 2030 para el Desarrollo Sostenible, adoptada en el año 2015 por los Estados miembros (9). Estos objetivos buscan orientar los esfuerzos de los países hacia un desarrollo que permita mejorar la calidad de vida de las personas, reducir las desigualdades y proteger el planeta.
+
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
 
 ⚕️**ODS 3: Salud y bienestar**
 
-Este ODS busca garantizar una vida sana y promover el bienestar para todas las personas. Nuestro proyecto aborda específicamente la meta 3.6, que establece reducir a la mitad las muertes y lesiones causadas por accidentes de tráfico para el año 2030 (1).
-En el Perú:
-
-- Entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, con un saldo de 1,853 fallecidos y más de 30,000 lesionados (3).
-- El 11% de los accidentes fatales en Lima durante 2024 fue responsabilidad directa de peatones distraídos, principalmente por el uso del celular al cruzar (11).
-- Para las personas con discapacidad, las barreras físicas en el entorno urbano no solo limitan su movilidad, sino que también restringen su acceso a servicios de salud y rehabilitación (5).
-
-SafeWalk AI contribuye a este objetivo mediante alertas personalizadas en cruces peatonales, reduciendo el riesgo de accidentes y promoviendo la seguridad, autonomía y calidad de vida de los usuarios más vulnerables.
-Ejemplos de soluciones similares a nivel global:
-
-- NaviLens — sistema de señalización accesible para personas con discapacidad visual mediante códigos QR de alta velocidad.
-- Microsoft Seeing AI — aplicación que usa inteligencia artificial para describir el entorno a personas con discapacidad visual en tiempo real.
-
-
+Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo para el año 2030 (10). En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más expuestos a estos riesgos, entre ellos los peatones con discapacidad, cuya seguridad física al desplazarse por la vía pública está directamente vinculada con su bienestar y su capacidad de acceder a servicios de salud y rehabilitación.
+En el Perú, esta problemática tiene una dimensión concreta. Entre enero y julio de 2022, los accidentes de tránsito ocasionaron 1,853 fallecidos y más de 30,000 personas lesionadas (3), cifras que evidencian el impacto que la inseguridad vial tiene sobre la salud pública. Para las personas con discapacidad visual, este riesgo se agrava debido a la ausencia de infraestructura accesible en los cruces peatonales. Como señalan Seminario-Hurtado y Alfaro Torres (5), las barreras físicas en el entorno urbano no solo limitan la movilidad de estas personas, sino que también restringen su acceso a servicios esenciales, afectando directamente su calidad de vida.
+Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo de accidentes en cruces peatonales para personas con discapacidad visual, contribuyendo así a preservar su integridad física y promover su bienestar. A través de un sistema que detecta objetos asociados a peatones invidentes —el bastón blanco y las gafas oscuras— mediante YOLO en una Jetson Nano instalada en semáforos, y emite una alerta sonora para avisar a los demás peatones presentes, se busca que estas personas puedan desplazarse con mayor seguridad y autonomía, lo cual representa una mejora directa en su salud y calidad de vida.
 
 🏭**ODS 9: Industria, innovación e infraestructura**
 
-Este ODS promueve la modernización de la infraestructura existente mediante la incorporación de nuevas tecnologías que la hagan más eficiente, segura e inclusiva (1).
-En el Perú:
-
-- En 2023 se registraron aproximadamente 1,303 accidentes de tránsito solo en Lima, atribuidos principalmente a deficiencias en la señalización vial e infraestructura inadecuada (8).
-- El 60% de los atropellos es responsabilidad del peatón, muchos de ellos relacionados con distracciones por dispositivos móviles, evidenciando la necesidad de sistemas de alerta en tiempo real (12).
-- La infraestructura urbana peruana carece de tecnología adaptada a las necesidades de personas con discapacidad, quienes representan más de 3 millones de ciudadanos en el país (2).
+Una de las metas de este objetivo plantea la necesidad de modernizar la infraestructura existente e incorporar nuevas tecnologías que permitan hacerla más eficiente y segura (9). En el caso de las ciudades, esto se relaciona con el desarrollo de sistemas inteligentes que ayuden a mejorar la movilidad urbana y la seguridad vial.
+Nuestro proyecto se vincula con este objetivo porque propone el uso de herramientas tecnológicas como cámaras, inteligencia artificial y algoritmos de detección de objetos en tiempo real para mejorar la seguridad de las personas invidentes en los cruces peatonales. La implementación de un sistema que detecte el bastón blanco y las gafas oscuras mediante YOLO en una Jetson Nano, y que emita una alerta sonora desde el semáforo, representa una forma concreta de innovación aplicada a la infraestructura urbana (6, 7, 8).
 
 🤝 **ODS 10: Reducción de las desigualdades**
 
-Este ODS busca reducir las desigualdades dentro y entre países, garantizando la inclusión social, económica y política de todas las personas, independientemente de su condición (1).
-En el Perú:
+En muchos casos, las personas con discapacidad enfrentan dificultades para desplazarse en el entorno urbano debido a la falta de infraestructura accesible o a la ausencia de sistemas que les brinden apoyo en situaciones de riesgo. De acuerdo con datos del Instituto Nacional de Estadística e Informática, en el Perú más de tres millones de personas presentan algún tipo de discapacidad (10), lo que representa una parte importante de la población. Esto evidencia la necesidad de desarrollar soluciones que contribuyan a mejorar su acceso y movilidad en los espacios públicos.
 
-- Más de 3 millones de personas presentan algún tipo de discapacidad, representando una parte significativa de la población que enfrenta barreras diarias para desplazarse en el espacio urbano (2).
-- El 58.7% de los encuestados en ciudades peruanas calificó como deficiente la gestión del transporte público inclusivo, mientras que el 57.2% consideró mala la accesibilidad para personas con discapacidad (4).
-- El derecho a la accesibilidad es una de las garantías fundamentales en materia de discapacidad que ha tenido mayor desarrollo normativo en los últimos años, sin embargo su implementación real sigue siendo insuficiente (9).
+Nuestro proyecto se relaciona con este objetivo porque busca contribuir a la reducción de estas barreras mediante el uso de tecnología. A través del desarrollo de un sistema que pueda detectar en tiempo real objetos asociados a personas invidentes en cruces peatonales y emitir alertas sonoras, se busca brindar una herramienta que facilite el desplazamiento de estas personas y mejore su seguridad al momento de cruzar la vía pública. En ese sentido, investigaciones recientes demuestran que la detección automática del bastón blanco mediante sistemas de visión artificial instalados en infraestructura pública constituye una solución viable y escalable para identificar a personas invidentes en espacios exteriores (6), lo que refuerza la urgencia de propuestas tecnológicas que cierren esta brecha.
+
 
 
 🏙️**ODS 11: Ciudades y comunidades sostenibles**
 
-Este ODS busca lograr que las ciudades sean inclusivas, seguras, resilientes y sostenibles, garantizando el acceso equitativo al espacio público para todos los ciudadanos (1).
-En el Perú:
+Una de las metas de este objetivo está relacionada con mejorar la seguridad de los sistemas de transporte y garantizar que estos sean accesibles, especialmente para los grupos más vulnerables de la población, como niños, adultos mayores y personas con discapacidad (9).
 
-- El 57.2% de las personas con discapacidad califica como mala la accesibilidad en el transporte y espacio público urbano (4).
-- Lima Metropolitana concentra el 65.8% de la población con discapacidad visual del país, aproximadamente 1,966,766 personas, que enfrentan barreras diarias para desplazarse con autonomía (5).
-- Los peatones con discapacidad han sido históricamente invisibilizados en el diseño de la infraestructura urbana, vulnerando su derecho a circular libremente por la ciudad (9).
+En el Perú, los accidentes de tránsito continúan siendo un problema importante. Según información del Ministerio de Transportes y Comunicaciones del Perú, entre enero y julio del año 2022 se registraron más de 47,000 siniestros de tránsito en el país, lo que ocasionó miles de personas fallecidas y lesionadas (3). Dentro de estas cifras, los peatones se encuentran entre los grupos más afectados.
+
+El proyecto propuesto se relaciona con este objetivo porque busca aportar a la construcción de ciudades más seguras mediante el uso de tecnología. Al desarrollar un sistema que permita detectar en tiempo real a personas con discapacidad visual a través de sus objetos distintivos —el bastón blanco y las gafas oscuras— y emitir una alerta sonora en el semáforo, se busca contribuir a mejorar la seguridad vial y la accesibilidad en los espacios urbanos, con especial énfasis en los cruces peatonales.
+
 
 
 ---
