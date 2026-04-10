@@ -16,11 +16,13 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el entorno urbano.
 
-El sistema emplea visión artificial mediante el modelo YOLO, ejecutado en una Jetson Nano, para detectar en tiempo real la presencia de un bastón blanco en peatones. Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora a través de un altavoz integrado en el semáforo.
+El sistema emplea un módulo ESP32-CAM para la captura de imágenes en tiempo real. Estas imágenes son enviadas a una Jetson Nano, donde se ejecuta un modelo de visión artificial basado en YOLO, encargado de detectar la presencia de un bastón blanco en los peatones.
+
+Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora mediante un altavoz instalado en el semáforo, con el fin de advertir a las personas cercanas y fomentar un cruce más seguro.
 
 Esta alerta cumple una doble función: orientar al peatón con discapacidad visual durante el cruce y advertir a los demás transeúntes sobre su presencia, fomentando una mayor atención y apoyo en el entorno.
 
-La elección de la Jetson Nano se debe a su capacidad de procesamiento con GPU integrada, lo que permite ejecutar modelos de inteligencia artificial con baja latencia y alta eficiencia en tiempo real, garantizando un funcionamiento rápido y confiable del sistema.
+El uso combinado del ESP32-CAM y la Jetson Nano permite optimizar el sistema: el ESP32-CAM se encarga de la adquisición de imágenes de forma eficiente y económica, mientras que la Jetson Nano procesa la información utilizando su GPU, logrando una detección precisa en tiempo real.
 
 Este proyecto surge como respuesta a la problemática de la vulnerabilidad de las personas con discapacidad visual en espacios urbanos, respaldada por estudios de fuentes oficiales y literatura científica.
 
@@ -30,7 +32,7 @@ SafeWalk AI contribuye a los Objetivos de Desarrollo Sostenible (ODS) 3, 9, 10 y
 
 # 🌍 CONTEXTO
 
-La movilidad urbana es un aspecto fundamental para el desarrollo de las ciudades, ya que permite el desplazamiento seguro de las personas dentro del espacio público. Sin embargo, en muchos países, incluyendo el Perú, la seguridad vial continúa siendo un desafío importante, especialmente para los peatones, quienes representan uno de los grupos más vulnerables dentro del sistema de tránsito. La interacción constante entre vehículos y peatones en las vías urbanas, sumada a factores como el alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito, incrementa el riesgo de accidentes. Estudios realizados en Lima evidencian que los peatones tienden a elegir rutas más cortas para cruzar, influenciados por la ubicación de elementos urbanos, y que la congestión vehicular puede inducir comportamientos más arriesgados que aumentan el riesgo de accidentes (1).
+La movilidad urbana es un aspecto fundamental para el desarrollo de las ciudades, ya que permite el desplazamiento seguro de las personas dentro del espacio público. Sin embargo, en muchos países, incluyendo el Perú, la seguridad vial continúa siendo un desafío importante, especialmente para los peatones, quienes representan uno de los grupos más vulnerables dentro del sistema de tránsito. La interacción constante entre vehículos y peatones en las vías urbanas, sumada a factores como el alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito, incrementa el riesgo de accidentes. Estudios realizados en Lima evidencian que los peatones tienden a elegir rutas más corNo tas para cruzar, influenciados por la ubicación de elementos urbanos, y que la congestión vehicular puede inducir comportamientos más arriesgados que aumentan el riesgo de accidentes (1).
 
 Esta situación se vuelve aún más crítica para las personas con discapacidad visual, quienes enfrentan mayores dificultades al momento de desplazarse de forma autónoma por el espacio público. Un estudio del Banco Interamericano de Desarrollo que evaluó la accesibilidad peatonal en rutas urbanas con participación de personas con distintos tipos de discapacidad concluyó que las personas con discapacidad visual son las más afectadas por las barreras presentes en el entorno urbano, especialmente en los recorridos asociados a cruces peatonales y paradas de transporte público (2). En muchos casos, los sistemas de señalización existentes no están diseñados considerando plenamente las necesidades de accesibilidad de estas personas, lo que limita su capacidad de desplazarse con seguridad ante situaciones de riesgo vial.
 
@@ -50,33 +52,26 @@ Frente a esta problemática, surge la necesidad de desarrollar soluciones que co
 
 En este sentido, entre las medidas recomendadas para mejorar la accesibilidad en entornos urbanos para personas con discapacidad visual se encuentran los semáforos sonoros, los pisos podotáctiles y los carteles con información en braille; sin embargo, su aplicación no es generalizada ni adecuada en el Perú (5). Esto evidencia que las soluciones tradicionales son insuficientes y que se requiere innovar en la forma en que las alertas de riesgo llegan específicamente a las personas invidentes en los cruces peatonales.
 
-Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que, mediante el uso de visión artificial con YOLO implementado en una Raspberry Pi 5 y una cámara, detecta en tiempo real objetos asociados a personas con discapacidad visual —específicamente el bastón blanco y las gafas oscuras— en cruces peatonales, y genera una alerta sonora a través de un altavoz instalado en el semáforo. Este aviso busca beneficiar tanto a la persona invidente como a los demás peatones presentes, quienes al escuchar la alerta pueden brindar apoyo. Investigaciones previas han demostrado la viabilidad de sistemas similares basados en Raspberry Pi con redes neuronales convolucionales para la detección de objetos en tiempo real (6, 7, 8). Dado que la brecha de accesibilidad peatonal para personas con discapacidad visual en espacios urbanos persiste pese a la normativa existente (2), este sistema busca contribuir a una movilidad urbana más segura e inclusiva, alineándose con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11 (9).
+Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que utiliza un módulo ESP32-CAM para la captura de imágenes y una Jetson Nano para el procesamiento mediante visión artificial con el modelo YOLO. Este sistema permite detectar en tiempo real la presencia de un bastón blanco en peatones, identificando así a personas con discapacidad visual y activando una alerta sonora a través de un altavoz instalado en el semáforo. 
+
+Este enfoque busca complementar las soluciones existentes mediante el uso de inteligencia artificial, contribuyendo a mejorar la seguridad y la inclusión en los entornos urbanos. En este sentido, el proyecto se alinea con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11, promoviendo una movilidad más segura, accesible e inclusiva.
 
 
 ---
 
 
 # ¿Cómo funciona el proyecto?
-## Detección
-Sensores PIR y ultrasónico identifican la presencia y proximidad de peatones en el cruce. La cámara ESP32-CAM detecta objetos asociados a personas con discapacidad, como bastones blancos o sillas de ruedas, reconociendo automáticamente a usuarios vulnerables.
-## Análisis
-La ESP32-CAM captura imágenes y evalúa el comportamiento del peatón, identificando situaciones de riesgo como el uso del celular al momento de cruzar, así como el perfil de movilidad del usuario según los objetos detectados.
-##Clasificación
-El sistema determina el nivel de riesgo en tres estados:
+## Captura de imágenes
+El sistema utiliza un módulo ESP32-CAM para capturar imágenes en tiempo real del entorno del cruce peatonal.
+## Procesamiento y detección
+Las imágenes son enviadas a una Jetson Nano, donde se ejecuta un modelo de visión artificial basado en YOLO para detectar la presencia de un bastón blanco en los peatones.
+## Control del sistema
+Una vez realizada la detección, la Jetson Nano envía una señal a un microcontrolador (ESP32 o Arduino), encargado de gestionar los dispositivos electrónicos del sistema.
+## Activación de alerta
+El microcontrolador activa una alerta sonora mediante un altavoz instalado en el semáforo, con el fin de advertir a las personas cercanas.
 
-Seguro — el peatón cruza con atención y sin riesgo inmediato
-Sospechoso — se detecta distracción o comportamiento de riesgo
-Peligro — situación de riesgo inminente para el peatón
-
-## Respuesta en el semáforo
-Se activan alertas físicas según el nivel de riesgo detectado:
-
-Luces tipo semáforo
-Sonido mediante buzzer
-Mensajes en pantalla
-
-## Registro de datos
-Se almacenan datos en Micro SD para análisis posterior y mejora continua del sistema.
+## Función del sistema
+La alerta busca mejorar la seguridad en el cruce peatonal, facilitando la identificación de personas con discapacidad visual y promoviendo una mayor atención por parte del entorno.
 
 ---
 
