@@ -75,13 +75,6 @@ Luces tipo semáforo
 Sonido mediante buzzer
 Mensajes en pantalla
 
-## Respuesta en app móvil / smartwatch
-De forma simultánea, el sistema envía señales vía Bluetooth o WiFi al dispositivo personal del usuario, con alertas diferenciadas según su perfil registrado:
-
-Discapacidad visual — alerta sonora automática al detectar bastón blanco
-Discapacidad auditiva — alerta visual y patrones de vibración en smartwatch o app móvil, donde pulsos cortos indican precaución y pulsos largos indican peligro
-Discapacidad motriz — tiempo extendido de cruce al detectar silla de ruedas y notificación en app móvil
-
 ## Registro de datos
 Se almacenan datos en Micro SD para análisis posterior y mejora continua del sistema.
 
