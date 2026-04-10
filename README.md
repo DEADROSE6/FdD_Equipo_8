@@ -14,15 +14,17 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 # 🧾 DESCRIPCION DEL PROYECTO
 
-El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el espacio urbano.
+El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el entorno urbano.
 
-El sistema utiliza visión artificial basada en YOLO, ejecutada sobre una Jetson Nano, para detectar en tiempo real la presencia simultánea de bastón blanco y gafas en un peatón. Al identificar ambos objetos al mismo tiempo, el sistema infiere que se trata de una persona con discapacidad visual y activa de forma automática una alerta sonora a través de un altavoz instalado en el semáforo, notificando tanto al peatón vulnerable como a los demás transeúntes cercanos, quienes al escuchar el aviso pueden brindar asistencia o actuar con mayor precaución en el cruce.
+El sistema emplea visión artificial mediante el modelo YOLO, ejecutado en una Jetson Nano, para detectar en tiempo real la presencia de un bastón blanco en peatones. Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora a través de un altavoz integrado en el semáforo.
 
-La elección de Jetson Nano responde a una necesidad técnica concreta: al contar con GPU NVIDIA integrada, permite ejecutar modelos de detección de objetos como YOLO con baja latencia y alta eficiencia en tiempo real, algo que no puede garantizarse con alternativas como el ESP32-CAM o incluso una Raspberry Pi 5, cuya arquitectura CPU no está optimizada para inferencia de imágenes con inteligencia artificial.
+Esta alerta cumple una doble función: orientar al peatón con discapacidad visual durante el cruce y advertir a los demás transeúntes sobre su presencia, fomentando una mayor atención y apoyo en el entorno.
 
-Este proyecto nace como propuesta de solución frente a una problemática documentada en fuentes oficiales del gobierno peruano, revistas científicas indexadas en Scielo e IEEE, que evidencian tanto la vulnerabilidad de las personas con discapacidad visual en entornos urbanos como el potencial de la visión artificial aplicada a la seguridad vial.
+La elección de la Jetson Nano se debe a su capacidad de procesamiento con GPU integrada, lo que permite ejecutar modelos de inteligencia artificial con baja latencia y alta eficiencia en tiempo real, garantizando un funcionamiento rápido y confiable del sistema.
 
-SafeWalk AI contribuye a los ODS 3, 9, 10 y 11, promoviendo la seguridad vial, la innovación tecnológica aplicada a infraestructura urbana y el desarrollo de ciudades más inclusivas y seguras para todos.
+Este proyecto surge como respuesta a la problemática de la vulnerabilidad de las personas con discapacidad visual en espacios urbanos, respaldada por estudios de fuentes oficiales y literatura científica.
+
+SafeWalk AI contribuye a los Objetivos de Desarrollo Sostenible (ODS) 3, 9, 10 y 11, promoviendo la seguridad, la innovación tecnológica y la construcción de ciudades más inclusivas.
 
 ---
 
