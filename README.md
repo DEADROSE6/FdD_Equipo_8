@@ -1,4 +1,4 @@
-﻿# Equipo 8 - SafeWalk IA
+﻿#  👥📌Equipo 8 - SafeWalk IA
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
