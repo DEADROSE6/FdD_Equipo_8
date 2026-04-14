@@ -12,7 +12,7 @@
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un módulo óptico para semáforos peatonales que incorpora iluminación LED y señales acústicas para ayudar a personas con discapacidad visual. El sistema integra un módulo electrónico que controla simultáneamente las luces y el sonido, permitiendo indicar de forma clara cuándo es seguro cruzar. Incluye una carcasa compatible con semáforos convencionales y un altavoz integrado para emitir las alertas. Su objetivo es mejorar la accesibilidad en cruces peatonales. | <img src="../Recursos/Imagenes/img6.jpeg" width="300"><br><img src="../Recursos/Imagenes/img4.jpeg" width="300"> |
+| La patente describe un módulo óptico para semáforos peatonales que incorpora iluminación LED y señales acústicas para ayudar a personas con discapacidad visual. El sistema integra un módulo electrónico que controla simultáneamente las luces y el sonido, permitiendo indicar de forma clara cuándo es seguro cruzar. Incluye una carcasa compatible con semáforos convencionales y un altavoz integrado para emitir las alertas. Su objetivo es mejorar la accesibilidad en cruces peatonales. | <img src="../../Recursos/Imagenes/img6.jpeg" width="300"><br><img src="../../Recursos/Imagenes/img4.jpeg" width="300"> |
 
 🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/043447627/publication/ES1073627U?q=pn%3DES1073627U)
 
@@ -28,7 +28,7 @@
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones (sistema háptico) en lugar de señales visuales o auditivas. Utiliza GPS para determinar la posición y genera patrones táctiles que indican la dirección. Incluye placa electrónica, batería y actuadores en formato pulsera, y puede conectarse a un móvil. | <img src="../Recursos/Imagenes/img8.jpeg" width="300"><br><img src="../Recursos/Imagenes/img7.jpeg" width="300"> |
+| La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones (sistema háptico) en lugar de señales visuales o auditivas. Utiliza GPS para determinar la posición y genera patrones táctiles que indican la dirección. Incluye placa electrónica, batería y actuadores en formato pulsera, y puede conectarse a un móvil. | <img src="../../Recursos/Imagenes/img8.jpeg" width="300"><br><img src="../../Recursos/Imagenes/img7.jpeg" width="300"> |
 
 🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/078706485/publication/US2021369545A1?q=pn%3DUS2021369545A1)
 
@@ -44,6 +44,6 @@
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones en lugar de señales visuales o auditivas. Utiliza GPS y genera patrones táctiles. Incluye componentes electrónicos y conexión a dispositivos móviles para procesamiento. | <img src="../Recursos/Imagenes/img3.jpeg" width="300"><br><img src="../Recursos/Imagenes/img5.jpeg" width="300"> |
+| La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones en lugar de señales visuales o auditivas. Utiliza GPS y genera patrones táctiles. Incluye componentes electrónicos y conexión a dispositivos móviles para procesamiento. | <img src="../../Recursos/Imagenes/img3.jpeg" width="300"><br><img src="../../Recursos/Imagenes/img5.jpeg" width="300"> |
 
 🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/064014586/publication/US10371544B2?q=cl%20all%20%22A61F9%2F08%22)
