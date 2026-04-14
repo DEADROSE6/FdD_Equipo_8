@@ -12,7 +12,7 @@
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un módulo óptico para semáforos peatonales que incorpora iluminación LED y señales acústicas para ayudar a personas con discapacidad visual. El sistema integra un módulo electrónico que controla simultáneamente las luces y el sonido, permitiendo indicar de forma clara cuándo es seguro cruzar. Incluye una carcasa compatible con semáforos convencionales y un altavoz integrado para emitir las alertas. Su objetivo es mejorar la accesibilidad en cruces peatonales. | <img src="../Recursos/Imagenes/img6.jpeg" width="300"><br><img src="../Recursos/Imagenes/img4.jpeg" width="300"> |
+| La patente describe un módulo óptico para semáforos peatonales que incorpora iluminación LED y señales acústicas para ayudar a personas con discapacidad visual. El sistema integra un módulo electrónico que controla simultáneamente las luces y el sonido, permitiendo indicar de forma clara cuándo es seguro cruzar. Incluye una carcasa compatible con semáforos convencionales y un altavoz integrado para emitir las alertas. Su objetivo es mejorar la accesibilidad en cruces peatonales. | <img src="Recursos/Imagenes/img6.jpeg" width="300"><br><img src="../Recursos/Imagenes/img4.jpeg" width="300"> |
 
 🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/043447627/publication/ES1073627U?q=pn%3DES1073627U)
 
