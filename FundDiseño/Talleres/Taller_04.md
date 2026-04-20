@@ -1,4 +1,4 @@
-# PATENTES RELACIONADAS CON NUESTRO PROYECTO
+﻿# PATENTES RELACIONADAS CON NUESTRO PROYECTO
 
 ---
 
@@ -44,6 +44,6 @@
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un dispositivo portátil de navegación que guía al usuario mediante vibraciones en lugar de señales visuales o auditivas. Utiliza GPS y genera patrones táctiles. Incluye componentes electrónicos y conexión a dispositivos móviles para procesamiento. | <img src="../../Recursos/Imagenes/img3.jpeg" width="300"><br><img src="../../Recursos/Imagenes/img5.jpeg" width="300"> |
+| La patente describe un método y una cámara de vigilancia para la detección de peatones que optimiza la precisión y reduce los costos operativos mediante un proceso de análisis por etapas. El sistema identifica primero una zona de interés, luego detecta la forma humana y finalmente localiza rasgos específicos como la cabeza o el rostro para confirmar la presencia del peatón. Esta técnica permite una calibración constante que mejora la exactitud de la ubicación, incluso cuando hay personas muy próximas o superpuestas, logrando un alto rendimiento en hardware de bajo nivel sin importar el ángulo o la posición del sujeto. | <img src="../../Recursos/Imagenes/img3.jpeg" width="300"><br><img src="../../Recursos/Imagenes/img5.jpeg" width="300"> |
 
 🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/064014586/publication/US10371544B2?q=cl%20all%20%22A61F9%2F08%22)
