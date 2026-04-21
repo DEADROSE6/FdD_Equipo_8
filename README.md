@@ -156,3 +156,10 @@ El Equipo 8 está conformado por estudiantes comprometidos con generar un impact
 **8.** Ferreira AA, Barros CAL, Pereira TEB, Santana MFA, Silva IDS, Oliveira FS. Modular Smart Glasses for Real-Time Obstacle Detection in Blind Navigation. IEEE [Internet]. 2025 [citado 2025]. Disponible en: https://ieeexplore.ieee.org/document/11334173 
 
 **9.**  Organización de las Naciones Unidas. Objetivos de Desarrollo Sostenible [Internet]. Nueva York: ONU; 2015 [citado 2025]. Disponible en: https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/ 
+
+**10.**  PROTRÁNSITO – Municipalidad Metropolitana de Lima. Centro de Control y Gestión de Tránsito (CCGT) [Internet]. Lima: PROTRÁNSITO; s.f. [citado 2025]. Disponible en: http://protransito.munlima.gob.pe/index.php/es-es/monitoreo/ccgt
+
+**11.**  ITS Perú. ¿Quién o qué decide el ritmo de los semáforos en Lima? [Internet]. Lima: ITS Perú; 2024 [citado 2025]. Disponible en: https://itsperu.org/articulos/quien-o-que-decide-el-ritmo-de-los-semaforos-en-lima/ 
+
+**12.**  Huangfu Y, Ahrabi M, Tahal R, Huang J, Mohammad-Alikhani A, Reymann S. Efficient Edge Computing Device for Traffic Monitoring Using Deep Learning Detectors. IEEE [Internet]. 2023 [citado 2025]. Disponible en: https://ieeexplore.ieee.org/document/10335960
+
