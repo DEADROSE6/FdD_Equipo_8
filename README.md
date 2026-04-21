@@ -74,6 +74,31 @@ El microcontrolador activa una alerta sonora mediante un altavoz instalado en el
 La alerta busca mejorar la seguridad en el cruce peatonal, facilitando la identificación de personas con discapacidad visual y promoviendo una mayor atención por parte del entorno.
 
 ---
+# 💡 ESTADO DEL ARTE
+
+**Sistemas de asistencia personal para personas con discapacidad visual**
+
+La línea de investigación más desarrollada en la literatura propone soluciones que el propio usuario porta consigo.Leong y Kanesaraj Ramasamy (7) propusieron un sistema de detección de obstáculos y estimación de distancia para personas con discapacidad visual implementado en gafas inteligentes con Raspberry Pi, cámara y algoritmos de machine learning, que genera retroalimentación auditiva o háptica en tiempo real según la proximidad de los objetos detectados. Este sistema está diseñado para identificar objetos y estimar sus distancias, proporcionando retroalimentación auditiva o háptica en tiempo real al usuario. 
+Ferreira et al. (8) diseñaron un sistema modular de gafas inteligentes para detección de obstáculos en navegación de personas invidentes, validando la viabilidad de integrar procesamiento de visión artificial en objetos cotidianos del usuario con alertas sonoras como salida principal.
+Okolo et al. propusieron un sistema de navegación asistida inteligente que combina YOLOv8 implementado sobre Raspberry Pi con sensores ultrasónicos, cámara, altavoz y sensor de humedad, alcanzando una precisión promedio del 91.70% en la detección de nueve tipos de obstáculos en entornos interiores y exteriores, con tiempos de detección de apenas 0.001 segundos para personas y vehículos.Este resultado confirma que YOLO es un algoritmo maduro y eficiente para aplicaciones de detección en tiempo real orientadas a personas con discapacidad visual.
+Sin embargo, todas estas propuestas comparten una limitación estructural: dependen de que el usuario adquiera, configure y porte un dispositivo adicional, lo que representa una barrera de acceso económico y tecnológico que excluye precisamente a quienes más necesitan la solución.
+
+**Sistemas de detección en cruces peatonales para personas con discapacidad visual**
+
+Una segunda línea de investigación se enfoca específicamente en el desafío del cruce de calles, que representa uno de los mayores riesgos para las personas invidentes en el espacio urbano. 
+Chang et al. propusieron un sistema wearable basado en edge computing con inteligencia artificial que combina gafas inteligentes, un dispositivo de cintura y un bastón inteligente para asistir a personas con discapacidad visual en el uso seguro de cruces cebra, adoptando deep learning para el reconocimiento en tiempo real de la señalización peatonal y alcanzando una precisión del 90% en la detección del cruce cebra. Este trabajo evidencia que la combinación de bastón y gafas como objetos de referencia es un enfoque válido para identificar al usuario invidente en el contexto del cruce peatonal, lo que directamente sustenta la estrategia de detección de SafeWalk AI.
+Ji H et al. (6) desarrollaron un dataset multi-escena y un detector de objetos específicamente diseñado para identificar a personas invidentes en espacios públicos exteriores, demostrando que los sistemas de videovigilancia existentes pueden adaptarse para reconocer a este grupo de usuarios mediante visión artificial. Su trabajo es especialmente relevante para SafeWalk AI porque establece la viabilidad técnica de detectar personas invidentes desde cámaras fijas instaladas en infraestructura pública, no desde dispositivos portados por el usuario.
+
+**Modelos de detección de objetos para personas con discapacidad visual**
+
+Investigaciones recientes en IEEE Access han realizado evaluaciones comparativas entre YOLOv8, Faster R-CNN y DETR para sistemas de detección de obstáculos orientados a personas con discapacidad visual, encontrando que DETR logra una puntuación de confianza del 99%, precisión del 98% y velocidad de procesamiento de 40 ms por fotograma, mientras que YOLOv8 ofrece resultados competitivos con mayor eficiencia computacional, representando un balance adecuado entre precisión y velocidad para dispositivos de borde. Estos resultados son directamente aplicables a SafeWalk AI, donde la velocidad de inferencia en la Jetson Nano es un factor crítico.
+
+**Viabilidad del sistema**
+
+Estudios recientes han demostrado la viabilidad de implementar sistemas de monitoreo de tráfico en tiempo real utilizando dispositivos de edge computing. En particular, se ha logrado ejecutar modelos de detección de objetos como YOLOv4 en una Jetson Nano, alcanzando aproximadamente 7.8 FPS y una precisión cercana al 90% en detección de vehículos (12).
+Estos resultados evidencian que es posible ejecutar modelos de deep learning en dispositivos de bajo costo y recursos limitados, aplicando técnicas como transfer learning y cuantización de modelos.
+Esto valida directamente la factibilidad técnica de SafeWalk AI, ya que el sistema propuesto también utiliza YOLO en una Jetson Nano para realizar detección en tiempo real desde infraestructura urbana.
+
 
 # 🌍 OBJETIVOS DE DESARROLLO SOSTENIBLE
 
