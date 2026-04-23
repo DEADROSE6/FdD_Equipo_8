@@ -119,6 +119,7 @@ En entornos dinámicos como zonas de construcción, donde los obstáculos pueden
 Estudios recientes han demostrado la viabilidad de implementar sistemas de visión artificial en dispositivos de edge computing como la Jetson Nano, logrando ejecutar modelos de detección de objetos en tiempo real con niveles adecuados de precisión (12). Estos resultados evidencian que es posible desarrollar soluciones eficientes utilizando hardware de bajo costo.
 
 La aplicación de estas tecnologías en zonas de construcción permite adaptar el entorno de manera inteligente, generando alertas auditivas en función de la detección de usuarios vulnerables. Esto valida la factibilidad técnica de SafeWalk AI, ya que el sistema propuesto utiliza modelos de detección en tiempo real para mejorar la seguridad en entornos urbanos dinámicos y de alto riesgo.
+
 ---
 
 # 🌍 OBJETIVOS DE DESARROLLO SOSTENIBLE
@@ -162,6 +163,7 @@ Una de las metas de este objetivo está relacionada con mejorar la seguridad y a
 En el contexto urbano, las zonas de construcción representan un desafío importante para la seguridad peatonal debido a su carácter temporal y a la presencia de riesgos constantes. La falta de adaptación de estos espacios para personas con discapacidad visual evidencia una deficiencia en la planificación urbana inclusiva (10).
 
 El proyecto propuesto se relaciona con este objetivo porque busca contribuir al desarrollo de ciudades más seguras mediante la incorporación de tecnología en infraestructura temporal. Al implementar un sistema que detecte en tiempo real a personas con discapacidad visual y emita alertas sonoras en zonas de construcción, se promueve una mayor accesibilidad y seguridad en el entorno urbano.
+
 ---
 
 ## 📸 Fotografía del Equipo 
