@@ -1,4 +1,4 @@
-﻿#  👥📌Equipo 8 - SafeWalk IA
+﻿# 👥📌Equipo 8 - SafeWalk AI (Zonas de Construcción)
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
@@ -6,25 +6,27 @@
 
 ## 🌍 Descripción del Equipo 👥
 
-Somos el Equipo 8 del curso Fundamentos de Diseño 2026-1 , conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial. 
+Somos el Equipo 8 del curso Fundamentos de Diseño 2026-1, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
 
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.
 
 ---
 
-# 🧾 DESCRIPCION DEL PROYECTO
+# 🧾 DESCRIPCIÓN DEL PROYECTO
 
-El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en semáforos de cruces peatonales, orientado a mejorar la seguridad de personas con discapacidad visual en el entorno urbano.
+El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en **zonas de construcción urbana**, orientado a mejorar la seguridad de personas con discapacidad visual en entornos con alto riesgo.
 
-El sistema emplea un módulo ESP32-CAM para la captura de imágenes en tiempo real. Estas imágenes son enviadas a una Jetson Nano, donde se ejecuta un modelo de visión artificial basado en YOLO, encargado de detectar la presencia de un bastón blanco en los peatones.
+El sistema emplea una cámara conectada directamente a una NVIDIA Jetson Nano para la captura de imágenes en tiempo real. Estas imágenes son procesadas mediante un modelo de visión artificial basado en YOLO, encargado de detectar la presencia de personas con discapacidad visual a partir de elementos característicos como el bastón blanco y las gafas oscuras.
+Adicionalmente, se utiliza un microcontrolador ESP32 para la gestión de los dispositivos de salida, como el altavoz y otros elementos electrónicos del sistema.
+Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora mediante un altavoz, con el fin de advertirle sobre la proximidad de una zona de obra o peligro.
 
-Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora mediante un altavoz instalado en el semáforo, con el fin de advertir a las personas cercanas y fomentar un cruce más seguro.
-
-Esta alerta cumple una doble función: orientar al peatón con discapacidad visual durante el cruce y advertir a los demás transeúntes sobre su presencia, fomentando una mayor atención y apoyo en el entorno.
+Esta alerta cumple una doble función:  
+- Advertir directamente al peatón con discapacidad visual sobre un entorno riesgoso  
+- Informar a trabajadores y transeúntes cercanos sobre su presencia  
 
 El uso combinado del ESP32-CAM y la Jetson Nano permite optimizar el sistema: el ESP32-CAM se encarga de la adquisición de imágenes de forma eficiente y económica, mientras que la Jetson Nano procesa la información utilizando su GPU, logrando una detección precisa en tiempo real.
 
-Este proyecto surge como respuesta a la problemática de la vulnerabilidad de las personas con discapacidad visual en espacios urbanos, respaldada por estudios de fuentes oficiales y literatura científica.
+Este proyecto surge como respuesta a la problemática de la vulnerabilidad de las personas con discapacidad visual en entornos urbanos dinámicos y peligrosos como las zonas de construcción.
 
 SafeWalk AI contribuye a los Objetivos de Desarrollo Sostenible (ODS) 3, 9, 10 y 11, promoviendo la seguridad, la innovación tecnológica y la construcción de ciudades más inclusivas.
 
@@ -32,73 +34,91 @@ SafeWalk AI contribuye a los Objetivos de Desarrollo Sostenible (ODS) 3, 9, 10 y
 
 # 🌍 CONTEXTO
 
-La movilidad urbana es un aspecto fundamental para el desarrollo de las ciudades, ya que permite el desplazamiento seguro de las personas dentro del espacio público. Sin embargo, en muchos países, incluyendo el Perú, la seguridad vial continúa siendo un desafío importante, especialmente para los peatones, quienes representan uno de los grupos más vulnerables dentro del sistema de tránsito. La interacción constante entre vehículos y peatones en las vías urbanas, sumada a factores como el alto flujo vehicular, la falta de infraestructura adecuada y el incumplimiento de normas de tránsito, incrementa el riesgo de accidentes. Estudios realizados en Lima evidencian que los peatones tienden a elegir rutas más corNo tas para cruzar, influenciados por la ubicación de elementos urbanos, y que la congestión vehicular puede inducir comportamientos más arriesgados que aumentan el riesgo de accidentes (1).
+El crecimiento urbano en las ciudades implica una constante ejecución de obras de construcción, mantenimiento vial, instalación de servicios públicos y desarrollo de infraestructura. Estas intervenciones generan entornos dinámicos y temporales caracterizados por la presencia de maquinaria pesada, excavaciones, materiales expuestos y modificaciones en las rutas peatonales habituales (10). A diferencia de la infraestructura permanente, las zonas de construcción suelen cambiar rápidamente, lo que dificulta la adaptación de los peatones y aumenta el riesgo de accidentes (11).
 
-Esta situación se vuelve aún más crítica para las personas con discapacidad visual, quienes enfrentan mayores dificultades al momento de desplazarse de forma autónoma por el espacio público. Un estudio del Banco Interamericano de Desarrollo que evaluó la accesibilidad peatonal en rutas urbanas con participación de personas con distintos tipos de discapacidad concluyó que las personas con discapacidad visual son las más afectadas por las barreras presentes en el entorno urbano, especialmente en los recorridos asociados a cruces peatonales y paradas de transporte público (2). En muchos casos, los sistemas de señalización existentes no están diseñados considerando plenamente las necesidades de accesibilidad de estas personas, lo que limita su capacidad de desplazarse con seguridad ante situaciones de riesgo vial.
+En este tipo de entornos, la señalización de seguridad se basa principalmente en elementos visuales como conos, cintas de advertencia, carteles informativos y barreras físicas. Sin embargo, estos mecanismos no están diseñados considerando la accesibilidad universal, lo que representa una limitación significativa para las personas con discapacidad visual (9). La ausencia de sistemas de alerta auditiva o mecanismos inteligentes de advertencia genera una brecha importante en la seguridad de este grupo poblacional.
+
+Diversos estudios han demostrado que las personas con discapacidad visual enfrentan mayores dificultades al desplazarse en entornos urbanos no estructurados o en constante cambio, donde la detección de obstáculos depende en gran medida de señales no visuales (3, 4). En el caso de las zonas de construcción, esta problemática se intensifica debido a la presencia de riesgos adicionales como desniveles, maquinaria en movimiento y objetos imprevistos en la vía (10).
+
+Asimismo, la falta de infraestructura accesible en estos entornos no solo incrementa el riesgo de accidentes, sino que también limita la autonomía y la movilidad de las personas con discapacidad visual, afectando su capacidad de desplazarse de manera segura e independiente en la ciudad (9). Esta situación evidencia la necesidad de incorporar soluciones tecnológicas que permitan adaptar el entorno urbano de forma dinámica, especialmente en espacios temporales de alto riesgo.
+
+En este contexto, el uso de sistemas basados en visión artificial y computación en el borde representa una oportunidad para mejorar la seguridad en zonas de construcción. Estas tecnologías permiten detectar en tiempo real elementos relevantes del entorno y generar alertas oportunas, como lo demuestran investigaciones recientes en detección de obstáculos mediante modelos YOLO aplicados a entornos exteriores (6, 12). De esta manera, se facilita la prevención de accidentes y se promueve el desarrollo de entornos urbanos más inclusivos y seguros.
+---
 
 # 📊 EVIDENCIA DEL PROBLEMA
 
- En el Perú, los accidentes de tránsito representan un problema significativo de seguridad pública. De acuerdo con información del Ministerio de Transportes y Comunicaciones del Perú, entre enero y julio de 2022 se registraron más de 47,000 siniestros de tránsito, los cuales ocasionaron 1,853 fallecidos y más de 30,000 personas lesionadas (3). Dentro de estas cifras, los peatones constituyen uno de los grupos más afectados, representando aproximadamente el 25.7% de las personas fallecidas en accidentes de tránsito. A nivel local, según el Observatorio Nacional de Seguridad Vial, solo en el departamento de Lima se registraron aproximadamente 1,303 accidentes de tránsito en 2023, atribuidos principalmente a las malas condiciones de las carreteras y la inadecuada señalización vial (3).
- 
-Esta situación se agrava para las personas con discapacidad visual. Los Censos Nacionales 2017 del INEI revelaron que aproximadamente 1,966,766 personas en el Perú experimentan dificultades o limitaciones permanentes en la visión, siendo Lima Metropolitana la zona con mayor concentración de esta población, representando el 65.8% del total (4). Estas personas enfrentan barreras concretas al desplazarse por la ciudad: la ausencia de semáforos sonoros, la falta de pisos podotáctiles y la inadecuada señalización en los cruces peatonales limitan su capacidad de circular de forma segura e independiente (5).
+En el Perú, los entornos de construcción representan un problema relevante de seguridad para la población debido a la exposición a riesgos físicos como maquinaria pesada, excavaciones y estructuras temporales. De acuerdo con la Organización Internacional del Trabajo, el sector construcción es uno de los más peligrosos a nivel mundial, concentrando un alto porcentaje de accidentes laborales y urbanos debido a las condiciones dinámicas y cambiantes de las obras (10). Asimismo, normativas internacionales de seguridad establecen que la señalización en estos espacios es frecuentemente insuficiente o inadecuada, lo que incrementa la probabilidad de accidentes tanto para trabajadores como para peatones (11).
 
-Estos datos evidencian que el entorno vial presenta riesgos importantes para quienes se desplazan a pie, especialmente en intersecciones y cruces peatonales. Para las personas con discapacidad visual, este riesgo es aún mayor. Como señalan Seminario-Hurtado y Alfaro Torres (5), las barreras físicas en el entorno urbano no solo limitan la movilidad de estas personas, sino que también restringen su acceso a servicios esenciales, afectando directamente su calidad de vida y autonomía.
+Esta situación se vuelve aún más crítica para las personas con discapacidad visual. Según la Organización Mundial de la Salud, más de mil millones de personas en el mundo viven con algún tipo de discapacidad, de las cuales una proporción significativa presenta limitaciones visuales que afectan su capacidad de desplazarse de manera segura en entornos no adaptados (9). En el contexto peruano, esta problemática se acentúa debido a la falta de infraestructura accesible en espacios urbanos temporales como zonas de construcción.
 
-La magnitud de esta población contrasta con la precariedad de las condiciones de accesibilidad que enfrentan en el espacio público. Según el BID, las rutas peatonales asociadas al transporte urbano presentan deficiencias críticas para las personas con discapacidad visual, siendo este grupo el más perjudicado por la falta de infraestructura adaptada (2). Esta brecha entre las necesidades reales de la población y la oferta de infraestructura urbana refleja una problemática sistémica que afecta directamente la seguridad y autonomía de las personas con discapacidad visual en los espacios públicos.
+Las personas con discapacidad visual enfrentan barreras concretas en estos entornos, ya que la señalización existente es principalmente visual y no existen mecanismos auditivos que adviertan sobre peligros inmediatos. Investigaciones recientes en sistemas de navegación asistida demuestran que la detección de obstáculos en tiempo real es fundamental para mejorar la seguridad y autonomía de este grupo poblacional (3, 4). Sin embargo, en zonas de obra, estos riesgos se incrementan debido a la presencia de elementos imprevistos como zanjas abiertas, materiales de construcción y cambios constantes en la ruta peatonal (10).
+
+Estos datos evidencian que las zonas de construcción constituyen entornos de alto riesgo para los peatones, especialmente para aquellos con discapacidad visual. La ausencia de soluciones inclusivas en estos espacios no solo incrementa la probabilidad de accidentes, sino que también limita la movilidad y autonomía de estas personas, restringiendo su acceso seguro al entorno urbano.
+
+La magnitud de esta problemática contrasta con la limitada implementación de tecnologías que permitan adaptar estos espacios de manera inclusiva. A pesar de los avances en visión artificial y detección de objetos en tiempo real, su aplicación en infraestructura temporal sigue siendo reducida (6, 12). Esta brecha entre el desarrollo tecnológico y su aplicación práctica refleja una problemática estructural que afecta directamente la seguridad y calidad de vida de las personas con discapacidad visual en entornos urbanos dinámicos.
 
 # 💡 JUSTIFICACIÓN DEL PROYECTO
 
-Frente a esta problemática, surge la necesidad de desarrollar soluciones que contribuyan a mejorar la seguridad de los peatones en los espacios urbanos. Si bien el Estado peruano ha establecido un marco legal orientado a garantizar la accesibilidad, la implementación de estas normativas no ha sido efectiva, ya que persisten barreras físicas, sociales e institucionales, entre ellas la falta de asignación de un presupuesto público razonable y la ausencia de mecanismos de fiscalización adecuados (5).
+Frente a esta problemática, surge la necesidad de desarrollar soluciones que contribuyan a mejorar la seguridad de los peatones en entornos urbanos dinámicos, especialmente en zonas de construcción. Si bien existen normativas nacionales e internacionales orientadas a garantizar la seguridad en obras, su implementación no siempre es efectiva, ya que persisten limitaciones en la señalización, supervisión y adaptación de estos espacios para usuarios vulnerables (10, 11). En particular, las personas con discapacidad visual continúan enfrentando barreras significativas debido a la falta de mecanismos de accesibilidad adecuados en estos entornos temporales.
 
-En este sentido, entre las medidas recomendadas para mejorar la accesibilidad en entornos urbanos para personas con discapacidad visual se encuentran los semáforos sonoros, los pisos podotáctiles y los carteles con información en braille; sin embargo, su aplicación no es generalizada ni adecuada en el Perú (5). Esto evidencia que las soluciones tradicionales son insuficientes y que se requiere innovar en la forma en que las alertas de riesgo llegan específicamente a las personas invidentes en los cruces peatonales.
+En este sentido, las medidas tradicionales de seguridad en zonas de construcción —como señalización visual, cintas de advertencia, barreras físicas y carteles informativos— no son suficientes para garantizar la seguridad de las personas con discapacidad visual, ya que dependen principalmente de la percepción visual (9). Esto evidencia la necesidad de incorporar soluciones complementarias que utilicen otros canales sensoriales, como el auditivo, para transmitir información de riesgo de manera efectiva.
 
-Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que utiliza un módulo ESP32-CAM para la captura de imágenes y una Jetson Nano para el procesamiento mediante visión artificial con el modelo YOLO. Este sistema permite detectar en tiempo real la presencia de un bastón blanco en peatones, identificando así a personas con discapacidad visual y activando una alerta sonora a través de un altavoz instalado en el semáforo. 
+Por ello, nuestro proyecto propone el desarrollo de SafeWalk AI, un sistema inteligente que utiliza un módulo ESP32-CAM para la captura de imágenes y una Jetson Nano para el procesamiento mediante visión artificial con el modelo YOLO. Este sistema permite detectar en tiempo real la presencia de un bastón blanco en peatones, identificando así a personas con discapacidad visual y activando una alerta sonora a través de un altavoz instalado en zonas de construcción. La aplicación de modelos de detección de objetos en tiempo real ha demostrado ser efectiva para identificar elementos relevantes del entorno y generar alertas oportunas en sistemas de asistencia (6, 12).
 
-Este enfoque busca complementar las soluciones existentes mediante el uso de inteligencia artificial, contribuyendo a mejorar la seguridad y la inclusión en los entornos urbanos. En este sentido, el proyecto se alinea con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11, promoviendo una movilidad más segura, accesible e inclusiva.
-
+Este enfoque busca complementar las soluciones existentes mediante el uso de inteligencia artificial aplicada a infraestructura temporal, contribuyendo a mejorar la seguridad y la inclusión en entornos de alto riesgo. En este sentido, el proyecto se alinea con los Objetivos de Desarrollo Sostenible, especialmente los ODS 3, 9, 10 y 11, promoviendo entornos urbanos más seguros, accesibles e inclusivos para todos.
 
 ---
 
+# ⚙️ ¿Cómo funciona el proyecto?
 
-# ¿Cómo funciona el proyecto?
 ## Captura de imágenes
-El sistema utiliza un módulo ESP32-CAM para capturar imágenes en tiempo real del entorno del cruce peatonal.
-## Procesamiento y detección
-Las imágenes son enviadas a una Jetson Nano, donde se ejecuta un modelo de visión artificial basado en YOLO para detectar la presencia de un bastón blanco en los peatones.
+El sistema utiliza un módulo ESP32-CAM conectado a la Jetson Nano, el cual captura imágenes del entorno y las transmite para su procesamiento.
+
 ## Control del sistema
-Una vez realizada la detección, la Jetson Nano envía una señal a un microcontrolador (ESP32 o Arduino), encargado de gestionar los dispositivos electrónicos del sistema.
+La Jetson Nano recibe y procesa las imágenes, y posteriormente envía señales a un microcontrolador que gestiona los dispositivos del sistema.
+
 ## Activación de alerta
-El microcontrolador activa una alerta sonora mediante un altavoz instalado en el semáforo, con el fin de advertir a las personas cercanas.
+Se activa una alerta sonora que advierte sobre peligros cercanos como excavaciones o maquinaria.
 
 ## Función del sistema
-La alerta busca mejorar la seguridad en el cruce peatonal, facilitando la identificación de personas con discapacidad visual y promoviendo una mayor atención por parte del entorno.
+El sistema busca prevenir accidentes y mejorar la seguridad del peatón con discapacidad visual mediante alertas.
 
----
 # 💡 ESTADO DEL ARTE
 
 **Sistemas de asistencia personal para personas con discapacidad visual**
 
-La línea de investigación más desarrollada en la literatura propone soluciones que el propio usuario porta consigo.Leong y Kanesaraj Ramasamy (7) propusieron un sistema de detección de obstáculos y estimación de distancia para personas con discapacidad visual implementado en gafas inteligentes con Raspberry Pi, cámara y algoritmos de machine learning, que genera retroalimentación auditiva o háptica en tiempo real según la proximidad de los objetos detectados. Este sistema está diseñado para identificar objetos y estimar sus distancias, proporcionando retroalimentación auditiva o háptica en tiempo real al usuario. 
-Ferreira et al. (8) diseñaron un sistema modular de gafas inteligentes para detección de obstáculos en navegación de personas invidentes, validando la viabilidad de integrar procesamiento de visión artificial en objetos cotidianos del usuario con alertas sonoras como salida principal.
-Okolo et al. propusieron un sistema de navegación asistida inteligente que combina YOLOv8 implementado sobre Raspberry Pi con sensores ultrasónicos, cámara, altavoz y sensor de humedad, alcanzando una precisión promedio del 91.70% en la detección de nueve tipos de obstáculos en entornos interiores y exteriores, con tiempos de detección de apenas 0.001 segundos para personas y vehículos.Este resultado confirma que YOLO es un algoritmo maduro y eficiente para aplicaciones de detección en tiempo real orientadas a personas con discapacidad visual.
-Sin embargo, todas estas propuestas comparten una limitación estructural: dependen de que el usuario adquiera, configure y porte un dispositivo adicional, lo que representa una barrera de acceso económico y tecnológico que excluye precisamente a quienes más necesitan la solución.
+La línea de investigación más desarrollada en la literatura propone soluciones que el propio usuario porta consigo. Diversos estudios han presentado sistemas de detección de obstáculos y asistencia a la navegación implementados en dispositivos como gafas inteligentes, bastones electrónicos o sistemas portables que integran cámaras, sensores y algoritmos de machine learning (3, 4). Estos sistemas permiten identificar objetos en el entorno y generar retroalimentación auditiva o háptica en tiempo real, facilitando la movilidad de las personas con discapacidad visual.
 
-**Sistemas de detección en cruces peatonales para personas con discapacidad visual**
+Asimismo, investigaciones recientes han incorporado modelos de detección de objetos como YOLO en dispositivos de bajo costo, logrando altos niveles de precisión en la identificación de obstáculos tanto en entornos interiores como exteriores (6). Estos avances demuestran la madurez de la visión artificial como herramienta para la asistencia a personas con discapacidad visual.
 
-Una segunda línea de investigación se enfoca específicamente en el desafío del cruce de calles, que representa uno de los mayores riesgos para las personas invidentes en el espacio urbano. 
-Chang et al. propusieron un sistema wearable basado en edge computing con inteligencia artificial que combina gafas inteligentes, un dispositivo de cintura y un bastón inteligente para asistir a personas con discapacidad visual en el uso seguro de cruces cebra, adoptando deep learning para el reconocimiento en tiempo real de la señalización peatonal y alcanzando una precisión del 90% en la detección del cruce cebra. Este trabajo evidencia que la combinación de bastón y gafas como objetos de referencia es un enfoque válido para identificar al usuario invidente en el contexto del cruce peatonal, lo que directamente sustenta la estrategia de detección de SafeWalk AI.
-Ji H et al. (8, 6) desarrollaron un dataset multi-escena y un detector de objetos específicamente diseñado para identificar a personas invidentes en espacios públicos exteriores, demostrando que los sistemas de videovigilancia existentes pueden adaptarse para reconocer a este grupo de usuarios mediante visión artificial. Su trabajo es especialmente relevante para SafeWalk AI porque establece la viabilidad técnica de detectar personas invidentes desde cámaras fijas instaladas en infraestructura pública, no desde dispositivos portados por el usuario.
+Sin embargo, todas estas propuestas comparten una limitación estructural: dependen de que el usuario adquiera, configure y porte un dispositivo adicional. Esto representa una barrera de acceso económico y tecnológico, especialmente en contextos donde no todos los usuarios pueden acceder a este tipo de soluciones.
 
-**Modelos de detección de objetos para personas con discapacidad visual**
+---
 
-Investigaciones recientes en IEEE Access han realizado evaluaciones comparativas entre YOLOv8, Faster R-CNN y DETR para sistemas de detección de obstáculos orientados a personas con discapacidad visual, encontrando que DETR logra una puntuación de confianza del 99%, precisión del 98% y velocidad de procesamiento de 40 ms por fotograma, mientras que YOLOv8 ofrece resultados competitivos con mayor eficiencia computacional, representando un balance adecuado entre precisión y velocidad para dispositivos de borde. Estos resultados son directamente aplicables a SafeWalk AI, donde la velocidad de inferencia en la Jetson Nano es un factor crítico.
+**Sistemas de detección en entornos urbanos y de riesgo**
+
+Una segunda línea de investigación se enfoca en la implementación de sistemas de detección desde infraestructura fija, utilizando cámaras y modelos de visión artificial para monitorear entornos urbanos. Estos sistemas permiten identificar objetos, personas y condiciones de riesgo en tiempo real, siendo ampliamente utilizados en aplicaciones como videovigilancia y monitoreo de tráfico.
+
+Estudios recientes han demostrado que es posible adaptar estos sistemas para identificar a personas con discapacidad visual mediante el reconocimiento de elementos característicos como el bastón blanco, utilizando modelos de detección de objetos entrenados en múltiples escenarios (6, 12). Este enfoque resulta especialmente relevante en entornos de alto riesgo, como zonas de construcción, donde la detección temprana puede prevenir accidentes.
+
+A pesar de estos avances, la aplicación de estos sistemas en infraestructura temporal, como obras de construcción, sigue siendo limitada. La mayoría de implementaciones se concentran en entornos permanentes, dejando una brecha importante en espacios dinámicos donde los riesgos son mayores (10).
+
+---
+
+**Modelos de detección de objetos para entornos dinámicos**
+
+Investigaciones recientes han evaluado el desempeño de modelos de detección de objetos como YOLO, Faster R-CNN y DETR en tareas de identificación de obstáculos en tiempo real. Estos estudios muestran que modelos como YOLO ofrecen un balance adecuado entre precisión y velocidad, lo que los hace ideales para aplicaciones en dispositivos de borde (6).
+
+En entornos dinámicos como zonas de construcción, donde los obstáculos pueden cambiar constantemente, la capacidad de detección en tiempo real es fundamental. La utilización de modelos optimizados permite identificar elementos relevantes del entorno y generar alertas oportunas, contribuyendo a la prevención de accidentes.
+
+---
 
 **Viabilidad del sistema**
 
-Estudios recientes han demostrado la viabilidad de implementar sistemas de monitoreo de tráfico en tiempo real utilizando dispositivos de edge computing. En particular, se ha logrado ejecutar modelos de detección de objetos como YOLOv4 en una Jetson Nano, alcanzando aproximadamente 7.8 FPS y una precisión cercana al 90% en detección de vehículos (12).
-Estos resultados evidencian que es posible ejecutar modelos de deep learning en dispositivos de bajo costo y recursos limitados, aplicando técnicas como transfer learning y cuantización de modelos.
-Esto valida directamente la factibilidad técnica de SafeWalk AI, ya que el sistema propuesto también utiliza YOLO en una Jetson Nano para realizar detección en tiempo real desde infraestructura urbana.
+Estudios recientes han demostrado la viabilidad de implementar sistemas de visión artificial en dispositivos de edge computing como la Jetson Nano, logrando ejecutar modelos de detección de objetos en tiempo real con niveles adecuados de precisión (12). Estos resultados evidencian que es posible desarrollar soluciones eficientes utilizando hardware de bajo costo.
 
+La aplicación de estas tecnologías en zonas de construcción permite adaptar el entorno de manera inteligente, generando alertas auditivas en función de la detección de usuarios vulnerables. Esto valida la factibilidad técnica de SafeWalk AI, ya que el sistema propuesto utiliza modelos de detección en tiempo real para mejorar la seguridad en entornos urbanos dinámicos y de alto riesgo.
+---
 
 # 🌍 OBJETIVOS DE DESARROLLO SOSTENIBLE
 
@@ -108,35 +128,39 @@ Los Objetivos de Desarrollo Sostenible (ODS) son un conjunto de metas globales e
 
 ⚕️**ODS 3: Salud y bienestar**
 
-Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo para el año 2030 (10). En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más expuestos a estos riesgos, entre ellos los peatones con discapacidad, cuya seguridad física al desplazarse por la vía pública está directamente vinculada con su bienestar y su capacidad de acceder a servicios de salud y rehabilitación.
+Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir el número de muertes y lesiones causadas por accidentes en entornos de riesgo para el año 2030 (9). En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más vulnerables, especialmente en espacios como zonas de construcción, donde existen múltiples peligros asociados a maquinaria, excavaciones y cambios constantes en la infraestructura (10).
 
-En el Perú, esta problemática tiene una dimensión concreta. Entre enero y julio de 2022, los accidentes de tránsito ocasionaron 1,853 fallecidos y más de 30,000 personas lesionadas (3), cifras que evidencian el impacto que la inseguridad vial tiene sobre la salud pública. Para las personas con discapacidad visual, este riesgo se agrava debido a la ausencia de infraestructura accesible en los cruces peatonales. Como señalan Seminario-Hurtado y Alfaro Torres (5), las barreras físicas en el entorno urbano no solo limitan la movilidad de estas personas, sino que también restringen su acceso a servicios esenciales, afectando directamente su calidad de vida.
+A nivel global, el sector construcción es considerado uno de los más peligrosos debido a la alta incidencia de accidentes asociados a condiciones inseguras y señalización inadecuada (10, 11). Para las personas con discapacidad visual, este riesgo se incrementa significativamente, ya que la mayoría de advertencias en estos entornos son de carácter visual y no existen mecanismos accesibles que permitan identificar peligros de manera oportuna (9).
 
-Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo de accidentes en cruces peatonales para personas con discapacidad visual, contribuyendo así a preservar su integridad física y promover su bienestar. A través de un sistema que detecta objetos asociados a peatones invidentes —el bastón blanco y las gafas oscuras— mediante YOLO en una Jetson Nano instalada en semáforos, y emite una alerta sonora para avisar a los demás peatones presentes, se busca que estas personas puedan desplazarse con mayor seguridad y autonomía, lo cual representa una mejora directa en su salud y calidad de vida.
+Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo de accidentes en zonas de construcción para personas con discapacidad visual, contribuyendo a preservar su integridad física y promover su bienestar. A través de un sistema que detecta la presencia de un bastón blanco mediante visión artificial con YOLO en una Jetson Nano, y activa una alerta sonora en tiempo real, se busca mejorar la seguridad y autonomía de estas personas en entornos de alto riesgo.
+
+---
 
 🏭**ODS 9: Industria, innovación e infraestructura**
 
-Una de las metas de este objetivo plantea la necesidad de modernizar la infraestructura existente e incorporar nuevas tecnologías que permitan hacerla más eficiente y segura (9). En el caso de las ciudades, esto se relaciona con el desarrollo de sistemas inteligentes que ayuden a mejorar la movilidad urbana y la seguridad vial.
-Nuestro proyecto se vincula con este objetivo porque propone el uso de herramientas tecnológicas como cámaras, inteligencia artificial y algoritmos de detección de objetos en tiempo real para mejorar la seguridad de las personas invidentes en los cruces peatonales. La implementación de un sistema que detecte el bastón blanco y las gafas oscuras mediante YOLO en una Jetson Nano, y que emita una alerta sonora desde el semáforo, representa una forma concreta de innovación aplicada a la infraestructura urbana (6, 7, 8).
+Una de las metas de este objetivo plantea la necesidad de modernizar la infraestructura e incorporar tecnologías que permitan hacerla más segura, eficiente e inclusiva (9). En el contexto urbano, esto incluye la implementación de sistemas inteligentes capaces de adaptarse a entornos dinámicos como las zonas de construcción.
+
+Nuestro proyecto se vincula con este objetivo porque propone el uso de herramientas tecnológicas como cámaras, inteligencia artificial y algoritmos de detección de objetos en tiempo real para mejorar la seguridad en estos espacios. La implementación de un sistema basado en YOLO que detecte a personas con discapacidad visual y genere alertas sonoras representa una forma concreta de innovación aplicada a infraestructura temporal (6, 12).
+
+---
 
 🤝 **ODS 10: Reducción de las desigualdades**
 
-En muchos casos, las personas con discapacidad enfrentan dificultades para desplazarse en el entorno urbano debido a la falta de infraestructura accesible o a la ausencia de sistemas que les brinden apoyo en situaciones de riesgo. De acuerdo con datos del Instituto Nacional de Estadística e Informática, en el Perú más de tres millones de personas presentan algún tipo de discapacidad (10), lo que representa una parte importante de la población. Esto evidencia la necesidad de desarrollar soluciones que contribuyan a mejorar su acceso y movilidad en los espacios públicos.
+En muchos casos, las personas con discapacidad enfrentan dificultades para desplazarse en el entorno urbano debido a la falta de infraestructura accesible, especialmente en espacios temporales como zonas de obra. Estas limitaciones generan una brecha en el acceso seguro al espacio público.
 
-Nuestro proyecto se relaciona con este objetivo porque busca contribuir a la reducción de estas barreras mediante el uso de tecnología. A través del desarrollo de un sistema que pueda detectar en tiempo real objetos asociados a personas invidentes en cruces peatonales y emitir alertas sonoras, se busca brindar una herramienta que facilite el desplazamiento de estas personas y mejore su seguridad al momento de cruzar la vía pública. En ese sentido, investigaciones recientes demuestran que la detección automática del bastón blanco mediante sistemas de visión artificial instalados en infraestructura pública constituye una solución viable y escalable para identificar a personas invidentes en espacios exteriores (6), lo que refuerza la urgencia de propuestas tecnológicas que cierren esta brecha.
+De acuerdo con la Organización Mundial de la Salud, una gran proporción de la población mundial presenta algún tipo de discapacidad, lo que evidencia la necesidad de desarrollar soluciones inclusivas que mejoren su calidad de vida (9). En entornos de construcción, la ausencia de mecanismos de alerta accesibles incrementa esta desigualdad.
 
+Nuestro proyecto se relaciona con este objetivo porque busca reducir estas barreras mediante el uso de tecnología. A través de la detección en tiempo real de personas con discapacidad visual y la generación de alertas auditivas en zonas de construcción, se busca mejorar su seguridad y facilitar su desplazamiento en entornos urbanos complejos. Investigaciones recientes demuestran que los sistemas de visión artificial permiten identificar elementos clave como el bastón blanco, lo que hace viable este tipo de soluciones (6).
 
+---
 
 🏙️**ODS 11: Ciudades y comunidades sostenibles**
 
-Una de las metas de este objetivo está relacionada con mejorar la seguridad de los sistemas de transporte y garantizar que estos sean accesibles, especialmente para los grupos más vulnerables de la población, como niños, adultos mayores y personas con discapacidad (9).
+Una de las metas de este objetivo está relacionada con mejorar la seguridad y accesibilidad de los espacios urbanos, garantizando que estos sean inclusivos para todos los ciudadanos, especialmente los grupos más vulnerables (9).
 
-En el Perú, los accidentes de tránsito continúan siendo un problema importante. Según información del Ministerio de Transportes y Comunicaciones del Perú, entre enero y julio del año 2022 se registraron más de 47,000 siniestros de tránsito en el país, lo que ocasionó miles de personas fallecidas y lesionadas (3). Dentro de estas cifras, los peatones se encuentran entre los grupos más afectados.
+En el contexto urbano, las zonas de construcción representan un desafío importante para la seguridad peatonal debido a su carácter temporal y a la presencia de riesgos constantes. La falta de adaptación de estos espacios para personas con discapacidad visual evidencia una deficiencia en la planificación urbana inclusiva (10).
 
-El proyecto propuesto se relaciona con este objetivo porque busca aportar a la construcción de ciudades más seguras mediante el uso de tecnología. Al desarrollar un sistema que permita detectar en tiempo real a personas con discapacidad visual a través de sus objetos distintivos —el bastón blanco y las gafas oscuras— y emitir una alerta sonora en el semáforo, se busca contribuir a mejorar la seguridad vial y la accesibilidad en los espacios urbanos, con especial énfasis en los cruces peatonales.
-
-
-
+El proyecto propuesto se relaciona con este objetivo porque busca contribuir al desarrollo de ciudades más seguras mediante la incorporación de tecnología en infraestructura temporal. Al implementar un sistema que detecte en tiempo real a personas con discapacidad visual y emita alertas sonoras en zonas de construcción, se promueve una mayor accesibilidad y seguridad en el entorno urbano.
 ---
 
 ## 📸 Fotografía del Equipo 
@@ -162,29 +186,32 @@ El proyecto propuesto se relaciona con este objetivo porque busca aportar a la c
 ## 📌 Resumen Final  
 El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 3, 9, 10 y 11 ,los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
 
-## 📑 Referencias Bibliográficas:
 
-**1.** Huamaní Meza A, et al. Seguridad vial y peatones en Lima Metropolitana [Internet]. Lima: Editorial Innova; 2023 [citado 2025]. Disponible en: https://www.editorialinnova.com/index.php/nrj/article/view/323  
+---
 
-**2.** Rodríguez Porcel M, Lee S, Sandoval D, Tascón Valencia J, Jaramillo PJ, Pedraza L. Auditoría georreferenciada y diagnóstico de accesibilidad peatonal de personas con discapacidad en la primera y última milla de un viaje [Internet]. Washington D.C.: Banco Interamericano de Desarrollo; 2023 [citado 2025]. Disponible en: https://publications.iadb.org/es/auditoria-georreferenciada-y-diagnostico-de-accesibilidad-peatonal-de-personas-con-discapacidad-en 
- 
-**3.** Ministerio de Transportes y Comunicaciones del Perú. De enero a julio del 2022 ocurrieron más de 47 mil siniestros de tránsito en el Perú [Internet]. Lima: MTC; 2022 [citado 2025]. Disponible en: https://www.gob.pe/institucion/mtc/noticias/647689-de-enero-a-julio-del-2022-ocurrieron-mas-de-47-mil-siniestros-de-transito-en-el-peru/
+# 📑 Referencias Bibliográficas
 
-**4.** Instituto Nacional de Estadística e Informática. Perfiles sociodemográficos de la población con discapacidad [Internet]. Lima: INEI; 2019 [citado 2025]. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1675/libro.pdf  
+**1.** Wang W, et al. YOLO-OD: Obstacle Detection for Visually Impaired Navigation Assistance. *Sensors*. 2024. https://doi.org/10.3390/s24237621 
 
-**5.** Seminario-Hurtado N, Alfaro Torres HM. Accesibilidad en entornos urbanos para personas con discapacidad visual en el Perú: un análisis normativo. Cuadernos de Vivienda y Urbanismo [Internet]. 2025 [citado 2025]; 18. Disponible en: https://revistas.javeriana.edu.co/index.php/cvyu/article/view/41190/
+**2.** Li J, et al. PC-CS-YOLO: High-Precision Obstacle Detection. *Sensors*. 2025. https://doi.org/10.3390/s25020534 
 
-**6.** Ji H, Mendonça I, Aritsugi M. Multi-Scene Dataset and Object Detector for Outside Blind Individual Identification. IEEE Access [Internet]. 2026 [citado 2026]; 14: 1423-1438. Disponible en: https://ieeexplore.ieee.org/document/11317963  
+**3.** Elhoseny M, et al. Obstacle detection system for blind navigation. *Computer & Electrical Engineering*. 2023. https://doi.org/10.1016/j.compeleceng.2023.108714 
 
-**7.** Leong X, Kanesaraj Ramasamy R. Obstacle Detection and Distance Estimation for Visually Impaired People. IEEE Access [Internet]. 2023 [citado 2025]; 11: 136609-136629. Disponible en: https://ieeexplore.ieee.org/document/10336791 
+**4.** Hassan M, et al. Deep learning obstacle detection for blind navigation. *Alexandria Engineering Journal*. 2023. https://doi.org/10.1016/j.asej.2023.102387 
 
-**8.** Ferreira AA, Barros CAL, Pereira TEB, Santana MFA, Silva IDS, Oliveira FS. Modular Smart Glasses for Real-Time Obstacle Detection in Blind Navigation. IEEE [Internet]. 2025 [citado 2025]. Disponible en: https://ieeexplore.ieee.org/document/11334173 
+**5.** Mahapatro A, et al. Real-Time Navigation System using YOLO. 2026. https://doi.org/10.5281/zenodo.19353279 
 
-**9.**  Organización de las Naciones Unidas. Objetivos de Desarrollo Sostenible [Internet]. Nueva York: ONU; 2015 [citado 2025]. Disponible en: https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/ 
+**6.** He C, Saha P. YOLO for outdoor obstacle detection. 2023. https://arxiv.org/abs/2312.07571 
 
-**10.**  PROTRÁNSITO – Municipalidad Metropolitana de Lima. Centro de Control y Gestión de Tránsito (CCGT) [Internet]. Lima: PROTRÁNSITO; s.f. [citado 2025]. Disponible en: http://protransito.munlima.gob.pe/index.php/es-es/monitoreo/ccgt
+**7.** Farzaneh MJ, Mohammadi HM. YOLO and SLAM navigation. 2022. https://arxiv.org/abs/2212.12185 
 
-**11.**  ITS Perú. ¿Quién o qué decide el ritmo de los semáforos en Lima? [Internet]. Lima: ITS Perú; 2024 [citado 2025]. Disponible en: https://itsperu.org/articulos/quien-o-que-decide-el-ritmo-de-los-semaforos-en-lima/ 
+**8.** Thakurdesai N, et al. Deep learning walking assistance. 2019. https://arxiv.org/abs/1911.08739 
 
-**12.**  Huangfu Y, Ahrabi M, Tahal R, Huang J, Mohammad-Alikhani A, Reymann S. Efficient Edge Computing Device for Traffic Monitoring Using Deep Learning Detectors. IEEE [Internet]. 2023 [citado 2025]. Disponible en: https://ieeexplore.ieee.org/document/10335960
+**9.** World Health Organization. World Report on Disability. 2011. https://www.who.int/publications/i/item/9789241564182 
+
+**10.** International Labour Organization. Safety and Health in Construction. 2022. https://www.ilo.org/global/publications/books/WCMS_159358/lang--en/index.htm 
+
+**11.** OSHA. Construction Industry Standards. 2024. https://www.osha.gov/laws-regs/regulations/standardnumber/1926 
+
+**12.** Huangfu Y, et al. Edge Computing for Detection. 2023. https://ieeexplore.ieee.org/document/10335960
 
