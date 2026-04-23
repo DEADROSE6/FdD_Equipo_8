@@ -41,8 +41,6 @@ En este tipo de entornos, la señalización de seguridad se basa principalmente 
 Diversos estudios han demostrado que las personas con discapacidad visual enfrentan mayores dificultades al desplazarse en entornos urbanos no estructurados o en constante cambio, donde la detección de obstáculos depende en gran medida de señales no visuales (3, 4). En el caso de las zonas de construcción, esta problemática se intensifica debido a la presencia de riesgos adicionales como desniveles, maquinaria en movimiento y objetos imprevistos en la vía (10).
 
 Asimismo, la falta de infraestructura accesible en estos entornos no solo incrementa el riesgo de accidentes, sino que también limita la autonomía y la movilidad de las personas con discapacidad visual, afectando su capacidad de desplazarse de manera segura e independiente en la ciudad (9). Esta situación evidencia la necesidad de incorporar soluciones tecnológicas que permitan adaptar el entorno urbano de forma dinámica, especialmente en espacios temporales de alto riesgo.
-
-En este contexto, el uso de sistemas basados en visión artificial y computación en el borde representa una oportunidad para mejorar la seguridad en zonas de construcción. Estas tecnologías permiten detectar en tiempo real elementos relevantes del entorno y generar alertas oportunas, como lo demuestran investigaciones recientes en detección de obstáculos mediante modelos YOLO aplicados a entornos exteriores (6, 12). De esta manera, se facilita la prevención de accidentes y se promueve el desarrollo de entornos urbanos más inclusivos y seguros.
 ---
 
 # 📊 EVIDENCIA DEL PROBLEMA
