@@ -1,4 +1,4 @@
-﻿# PATENTES RELACIONADAS CON NUESTRO PROYECTO
+<img width="1338" height="438" alt="image" src="https://github.com/user-attachments/assets/3697d723-f54d-4802-ba2c-36b31727d451" />﻿# PATENTES RELACIONADAS CON NUESTRO PROYECTO
 
 ---
 
@@ -22,8 +22,8 @@
 
 | CAMPO | INFORMACIÓN |
 |------|------------|
-| **TÍTULO** | MÉTODO Y SISTEMA DE NAVEGACIÓN INTELIGENTE PARA PERSONAS CON DISCAPACIDAD VISUAL |
-| **N° PUBLICACIÓN** | [US2021369545A1](https://worldwide.espacenet.com/patent/search?q=pn%3DUS2021369545A1) |
+| **TÍTULO** | SISTEMA Y MÉTODO PARA LA DETECCIÓN DE PEATONES MEDIANTE PROCESAMIENTO DE IMÁGENES |
+| **N° PUBLICACIÓN** | [US10719707B2](https://worldwide.espacenet.com/patent/search?q=pn%3DUS2021369545A1) |
 | **CIP** | A61H3/06 ; G01S15/08 ; G01S15/52 ; G01S15/89 ; G01S7/292 ; G06K9/62 ; G10L13/027 |
 
 | RESUMEN | IMÁGENES |
@@ -39,11 +39,11 @@
 | CAMPO | INFORMACIÓN |
 |------|------------|
 | **TÍTULO** | DISPOSITIVO HÁPTICO VIBRATORIO PARA CIEGOS |
-| **N° PUBLICACIÓN** | [US10371544B2](https://worldwide.espacenet.com/patent/search?q=pn%3DUS10371544B2) |
+| **N° PUBLICACIÓN** | [US10371544B2](https://patents.google.com/patent/US10719707B2/en) |
 | **CIP** | A61H3/06 ; G01C21/36 ; G06F3/01 ; A61F9/08 ; G09B21/00 |
 
 | RESUMEN | IMÁGENES |
 |--------|---------|
-| La patente describe un método y una cámara de vigilancia para la detección de peatones que optimiza la precisión y reduce los costos operativos mediante un proceso de análisis por etapas. El sistema identifica primero una zona de interés, luego detecta la forma humana y finalmente localiza rasgos específicos como la cabeza o el rostro para confirmar la presencia del peatón. Esta técnica permite una calibración constante que mejora la exactitud de la ubicación, incluso cuando hay personas muy próximas o superpuestas, logrando un alto rendimiento en hardware de bajo nivel sin importar el ángulo o la posición del sujeto. | <img src="../../Recursos/Imagenes/img9.png" width="300"><br><img src="../../Recursos/Imagenes/img10.png" width="300"> |
+| La patente describe un sistema de detección de peatones mediante procesamiento de imágenes en tiempo real. Analiza el entorno, identifica la presencia de personas y valida la detección con características del cuerpo humano, logrando alta precisión incluso en condiciones complejas. | <img src="../../Recursos/Imagenes/img9.png" width="300"><br><img src="../../Recursos/Imagenes/img10.png" width="300"> |
 
-🔗 [Ver patente](https://worldwide.espacenet.com/patent/search/family/064014586/publication/US10371544B2?q=cl%20all%20%22A61F9%2F08%22)
+🔗 [Ver patente](https://patents.google.com/patent/US10719707B2/en)
