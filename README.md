@@ -48,16 +48,19 @@ Las medidas tradicionales de seguridad en zonas de obra  (cintas de advertencia,
 # ⚙️ ¿Cómo funciona el proyecto?
 
 ## Captura de imágenes
-El sistema utiliza un módulo ESP32-CAM conectado a la Jetson Nano, el cual captura imágenes del entorno y las transmite para su procesamiento.
+El sistema utiliza un módulo de captura visual integrado en la plataforma de procesamiento embebido, el cual adquiere imágenes del entorno en tiempo real para su análisis inmediato.
+
+## Procesamiento e inferencia
+La plataforma embebida recibe y procesa las imágenes mediante un modelo de visión artificial ligero, capaz de detectar elementos característicos de personas con discapacidad visual como el bastón blanco y las gafas oscuras, operando de forma local sin depender de conexión a internet.
 
 ## Control del sistema
-La Jetson Nano recibe y procesa las imágenes, y posteriormente envía señales a un microcontrolador que gestiona los dispositivos del sistema.
+Una vez procesada la imagen, la plataforma envía señales a una unidad de control que gestiona los dispositivos de salida del sistema, garantizando una respuesta rápida y coordinada.
 
 ## Activación de alerta
-Se activa una alerta sonora que advierte sobre peligros cercanos como excavaciones o maquinaria.
+Al confirmar la detección, se activa automáticamente una alerta sonora que advierte sobre la proximidad de zonas de riesgo.
 
 ## Función del sistema
-El sistema busca prevenir accidentes y mejorar la seguridad del peatón con discapacidad visual mediante alertas.
+SafeWalk AI busca prevenir accidentes y mejorar la seguridad del peatón con discapacidad visual mediante alertas oportunas, contribuyendo a entornos urbanos más inclusivos y accesibles.
 
 # 💡 ESTADO DEL ARTE
 
