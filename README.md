@@ -14,21 +14,9 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 # 🧾 DESCRIPCIÓN DEL PROYECTO
 
-El equipo 8 desarrollará SafeWalk AI, un sistema inteligente de detección y alerta instalado en **zonas de construcción urbana**, orientado a mejorar la seguridad de personas con discapacidad visual en entornos con alto riesgo.
+El equipo 8 desarrollará SafeWalk AI, este sistema emplea un módulo de captura visual conectado a una plataforma de procesamiento embebido para la adquisición y análisis de imágenes en tiempo real, sin conexión a internet. Estas imágenes son procesadas mediante un modelo de visión artificial encargado de detectar la presencia de personas con discapacidad visual a partir de elementos característicos como el bastón blanco y las gafas oscuras. Al identificar estos elementos, el sistema activa automáticamente una alerta sonora mediante un altavoz, con el fin de advertir sobre la proximidad de una zona de obra o peligro.
 
-El sistema emplea una cámara conectada directamente a una NVIDIA Jetson Nano para la captura de imágenes en tiempo real. Estas imágenes son procesadas mediante un modelo de visión artificial basado en YOLO, encargado de detectar la presencia de personas con discapacidad visual a partir de elementos característicos como el bastón blanco y las gafas oscuras.
-Adicionalmente, se utiliza un microcontrolador ESP32 para la gestión de los dispositivos de salida, como el altavoz y otros elementos electrónicos del sistema.
-Al identificar este elemento, el sistema reconoce a una persona con discapacidad visual y activa automáticamente una alerta sonora mediante un altavoz, con el fin de advertirle sobre la proximidad de una zona de obra o peligro.
-
-Esta alerta cumple una doble función:  
-- Advertir directamente al peatón con discapacidad visual sobre un entorno riesgoso  
-- Informar a trabajadores y transeúntes cercanos sobre su presencia  
-
-El uso combinado del ESP32-CAM y la Jetson Nano permite optimizar el sistema: el ESP32-CAM se encarga de la adquisición de imágenes de forma eficiente y económica, mientras que la Jetson Nano procesa la información utilizando su GPU, logrando una detección precisa en tiempo real.
-
-Este proyecto surge como respuesta a la problemática de la vulnerabilidad de las personas con discapacidad visual en entornos urbanos dinámicos y peligrosos como las zonas de construcción.
-
-SafeWalk AI contribuye a los Objetivos de Desarrollo Sostenible (ODS) 3, 9, 10 y 11, promoviendo la seguridad, la innovación tecnológica y la construcción de ciudades más inclusivas.
+Este proyecto surge como respuesta a la vulnerabilidad de las personas con discapacidad visual en entornos urbanos dinámicos como las zonas de construcción, y contribuye a los Objetivos de Desarrollo Sostenible 3, 9, 10 y 11, promoviendo la seguridad, la innovación tecnológica y la construcción de ciudades más inclusivas.
 
 ---
 
