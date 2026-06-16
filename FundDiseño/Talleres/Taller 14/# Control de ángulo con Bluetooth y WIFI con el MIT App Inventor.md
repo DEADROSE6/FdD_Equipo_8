@@ -104,7 +104,7 @@ void loop() {
   }
   delay(10); // Retraso de cortesía para estabilizar las tareas de fondo del procesador
 }
-
+```
 ---
 
 ## 6. Procedimiento de Carga y Pruebas
