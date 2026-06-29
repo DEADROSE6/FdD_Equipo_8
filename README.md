@@ -51,7 +51,7 @@ Las medidas tradicionales de seguridad en zonas de obra  (cintas de advertencia,
 El sistema utiliza un módulo de captura visual integrado en la plataforma de procesamiento embebido, el cual adquiere imágenes del entorno en tiempo real para su análisis inmediato.
 
 ## Procesamiento e inferencia
-La plataforma embebida recibe y procesa las imágenes mediante un modelo de visión artificial ligero, capaz de detectar elementos característicos de personas con discapacidad visual como el bastón blanco y las gafas oscuras, operando de forma local sin depender de conexión a internet.
+La plataforma embebida recibe y procesa las imágenes mediante un modelo de visión artificial ligero, capaz de detectar elementos característicos de personas con discapacidad visual como el bastón blanco, operando de forma local sin depender de conexión a internet.
 
 ## Control del sistema
 Una vez procesada la imagen, la plataforma envía señales a una unidad de control que gestiona los dispositivos de salida del sistema, garantizando una respuesta rápida y coordinada.
