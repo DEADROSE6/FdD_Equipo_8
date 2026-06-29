@@ -1,6 +1,6 @@
-# 🛍️ Productos Comerciales
+# Productos Comerciales
 
-## 📌 Descripción general
+## Descripción general
 Esta sección presenta productos comerciales relacionados con la asistencia a personas con discapacidad visual. Estos dispositivos incorporan tecnologías como inteligencia artificial, sensores y sistemas de detección para mejorar la movilidad, orientación y seguridad de los usuarios.
 
 ---
