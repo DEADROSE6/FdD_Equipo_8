@@ -1,10 +1,10 @@
-﻿# 👥📌Equipo 8 - SafeWalk AI (Zonas de Construcción)
+﻿# Equipo 8 - SafeWalk AI (Zonas de Construcción)
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
 ---
 
-## 🌍 Descripción del Equipo 👥
+## Descripción del Equipo 👥
 
 Somos el Equipo 8 del curso Fundamentos de Diseño 2026-1, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
 
@@ -12,7 +12,7 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 
 ---
 
-# 🧾 DESCRIPCIÓN DEL PROYECTO
+# DESCRIPCIÓN DEL PROYECTO
 
 El equipo 8 desarrollará SafeWalk AI, este sistema emplea un módulo de captura visual conectado a una plataforma de procesamiento embebido para la adquisición y análisis de imágenes en tiempo real, sin conexión a internet. Estas imágenes son procesadas mediante un modelo de visión artificial encargado de detectar la presencia de personas con discapacidad visual a partir de elementos característicos como el bastón blanco y las gafas oscuras. Al identificar estos elementos, el sistema activa automáticamente una alerta sonora mediante un altavoz, con el fin de advertir sobre la proximidad de una zona de obra o peligro.
 
@@ -20,7 +20,7 @@ Este proyecto surge como respuesta a la vulnerabilidad de las personas con disca
 
 ---
 
-# 🌍 CONTEXTO
+# CONTEXTO
 
 El crecimiento de las ciudades peruanas conlleva una ejecución constante de obras de construcción, mantenimiento vial e instalación de servicios públicos que modifican de forma temporal el espacio urbano.En el Perú, la Contraloría General de la República ha identificado que a diciembre de 2025 existen 2,416 obras públicas paralizadas a nivel nacional, siendo Lima uno de los departamentos con mayor número de obras detenidas con 167 proyectos paralizados [1].
 
@@ -28,7 +28,7 @@ Esta situación representa un riesgo especialmente grave para las personas con d
 
 ---
 
-# 📊 EVIDENCIA DEL PROBLEMA
+# EVIDENCIA DEL PROBLEMA
 
 En el Perú, las obras de construcción en espacios urbanos representan un riesgo concreto para los peatones. Según la Organización Internacional del Trabajo, el sector construcción concentra un alto porcentaje de accidentes a nivel mundial, en parte por las condiciones dinámicas y cambiantes de las obras, y por la señalización frecuentemente insuficiente o inadecuada en estos espacios [3].
 
@@ -37,7 +37,7 @@ Esta problemática se vuelve crítica para las personas con discapacidad visual.
 Esta realidad no es abstracta. Roxana, una mujer de 56 años con discapacidad visual residente en Arequipa que utiliza el bastón blanco desde hace más de una década, describe con precisión el impacto que tienen las obras en su desplazamiento diario: "Cada vez que se realizan obras en Arequipa, abren el pavimento y lo dejan amontonado: escombros, arena, tierra, ladrillos y cascajos ocupan las veredas. Todo eso representa un obstáculo para desplazarnos. El bastón se nos atasca en esos huecos". Este testimonio refleja una problemática extendida en las ciudades peruanas, donde las intervenciones en la infraestructura urbana no contemplan mecanismos de aviso accesibles para personas invidentes [5]. 
 
 
-# 💡 JUSTIFICACIÓN DEL PROYECTO
+# JUSTIFICACIÓN DEL PROYECTO
 
 Frente a esta problemática, surge la necesidad de desarrollar soluciones tecnológicas que protejan a las personas con discapacidad visual en zonas de obra. En el Perú, la Norma Técnica A.120 de Accesibilidad Universal del Reglamento Nacional de Edificaciones establece la obligatoriedad de señalización accesible en espacios de construcción, incluyendo señalización podotáctil y auditiva en zonas de riesgo [6]. Sin embargo, su implementación es deficiente: en 2026, el 85% de las inspecciones de CONADIS reportaron incumplimientos en señalética, evidenciando que las normas existentes no se traducen en acciones concretas en los espacios de obra [6]. 
 
@@ -45,7 +45,7 @@ Las medidas tradicionales de seguridad en zonas de obra  (cintas de advertencia,
 
 ---
 
-# ⚙️ ¿Cómo funciona el proyecto?
+# ¿Cómo funciona el proyecto?
 
 ## Captura de imágenes
 El sistema utiliza un módulo de captura visual integrado en la plataforma de procesamiento embebido, el cual adquiere imágenes del entorno en tiempo real para su análisis inmediato.
@@ -65,13 +65,13 @@ SafeWalk AI busca prevenir accidentes y mejorar la seguridad del peatón con dis
 
 ---
 
-# 🌍 OBJETIVOS DE DESARROLLO SOSTENIBLE
+# OBJETIVOS DE DESARROLLO SOSTENIBLE
 
 Los Objetivos de Desarrollo Sostenible (ODS) son un conjunto de metas globales establecidas por la Organización de las Naciones Unidas como parte de la Agenda 2030 para el Desarrollo Sostenible, adoptada en el año 2015 por los Estados miembros [7]. Estos objetivos buscan orientar los esfuerzos de los países hacia un desarrollo que permita mejorar la calidad de vida de las personas, reducir las desigualdades y proteger el planeta.
 
 # Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
 
-⚕️**ODS 3: Salud y bienestar**
+**ODS 3: Salud y bienestar**
 
 Una de las metas de este objetivo, específicamente la meta 3.6, establece la necesidad de reducir el número de muertes y lesiones causadas por accidentes en entornos de riesgo para el año 2030 [7]. En el contexto urbano, esto implica desarrollar medidas que protejan a los grupos más vulnerables, especialmente en espacios como zonas de construcción, donde existen múltiples peligros asociados a maquinaria, excavaciones y cambios constantes en la infraestructura [8].
 
@@ -79,7 +79,7 @@ Nuestro proyecto se relaciona con este objetivo porque busca reducir el riesgo d
 
 ---
 
-🏭**ODS 9: Industria, innovación e infraestructura**
+**ODS 9: Industria, innovación e infraestructura**
 
 Una de las metas de este objetivo plantea la necesidad de modernizar la infraestructura e incorporar tecnologías que permitan hacerla más segura, eficiente e inclusiva (9). En el contexto urbano, esto incluye la implementación de sistemas inteligentes capaces de adaptarse a entornos dinámicos como las zonas de construcción.
 
@@ -87,7 +87,7 @@ Nuestro proyecto se vincula con este objetivo porque propone el uso de herramien
 
 ---
 
-🤝 **ODS 10: Reducción de las desigualdades**
+**ODS 10: Reducción de las desigualdades**
 
 En muchos casos, las personas con discapacidad enfrentan dificultades para desplazarse en el entorno urbano debido a la falta de infraestructura accesible, especialmente en espacios temporales como zonas de obra. Estas limitaciones generan una brecha en el acceso seguro al espacio público.
 
@@ -96,7 +96,7 @@ Nuestro proyecto se relaciona con este objetivo porque busca reducir estas barre
 
 ---
 
-🏙️**ODS 11: Ciudades y comunidades sostenibles**
+**ODS 11: Ciudades y comunidades sostenibles**
 
 Una de las metas de este objetivo está relacionada con mejorar la seguridad y accesibilidad de los espacios urbanos, garantizando que estos sean inclusivos para todos los ciudadanos, especialmente los grupos más vulnerables [7].
 
@@ -104,7 +104,7 @@ El proyecto propuesto se relaciona con este objetivo porque busca contribuir al 
 
 ---
 
-## 📸 Fotografía del Equipo 
+## Fotografía del Equipo 
 <p align="center">
 <img width="1408" height="768" alt="imagen_alumnos_IA" src="Recursos/Imagenes/Foto grupal.png" />
   <em>Figura 1. Fotografía del equipo 8</em>
@@ -112,7 +112,7 @@ El proyecto propuesto se relaciona con este objetivo porque busca contribuir al 
 
 ---
 
-## 👥 Integrantes del Equipo  
+## Integrantes del Equipo  
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
@@ -124,13 +124,13 @@ El proyecto propuesto se relaciona con este objetivo porque busca contribuir al 
 
 ---
 
-## 📌 Resumen Final  
+## Resumen Final  
 El Equipo 8 está conformado por estudiantes comprometidos con generar un impacto positivo en la sociedad mediante soluciones tecnológicas innovadoras. En esta nueva propuesta, se ha decidido trabajar con los ODS 3, 9, 10 y 11 ,los cuales abordan problemáticas relacionadas con la seguridad ciudadana, el desarrollo de ciudades seguras y la implementación de tecnología para mejorar la calidad de vida.
 
 
 ---
 
-# 📑 Referencias Bibliográficas
+# Referencias Bibliográficas
 
 **1.** Contraloría General de la República del Perú. Informe de obras públicas paralizadas en el territorio nacional a diciembre 2025. https://cdn.www.gob.pe/uploads/document/file/9416533/7715417-informe-de-obras-publicas-paralizadas-en-el-territorio-nacional-a-diciembre-2025f.PDF  
 
